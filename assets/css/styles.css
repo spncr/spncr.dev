@@ -1,9 +1,14 @@
 ---
 ---
+/* @import "main"; */
+
 body{
   display: grid;
   background-color: black;
-  grid-gap: 20px;
+  color: white;
+  grid-gap: .2em;
+  grid-template-columns: auto;
+  grid-template-rows: 3em auto;
   grid-template-areas:
   "header"
   "nav"
@@ -12,6 +17,10 @@ body{
 
 header{
   grid-area: header;
+}
+
+h1{
+  font-size: 1em;
 }
 
 nav{
@@ -29,5 +38,17 @@ content{
     grid-template-areas:
     "header header"
     "nav    content";
+  }
+
+  body h1{
+    font-size: 2em;
+  }
+
+  nav{
+    border-right: 1px solid Ivory;
+  }
+
+  content{
+    padding: 1em;
   }
 }

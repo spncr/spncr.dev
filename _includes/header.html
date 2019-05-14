@@ -1,9 +1,3 @@
-<div class="site-header">
-  <div class="wrapper">
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-    <span class="social_links">
-        {% for link in site.dash.social_links %}<a class="color-{{ link.color }}-hover" href="{{ link.url }}"><i class="fab fa-{{ link.icon }}"></i></a>{% endfor %}
-
-    </span>
-  </div>
-</div>
+<header>
+  <h1>{{site.title}}<h1>
+</header>

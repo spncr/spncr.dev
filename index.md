@@ -1,6 +1,6 @@
 ---
-layout: page
+layout: default
 title: Projects
 ---
 
-# Projects
+is this content?
