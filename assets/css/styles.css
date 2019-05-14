@@ -1,18 +1,22 @@
----
----
-/* @import "main"; */
-
-body{
+body {
   display: grid;
-  background-color: black;
-  color: white;
+  background-color: #150e22;
+  color: #e9deb4;
   grid-gap: .2em;
   grid-template-columns: auto;
   grid-template-rows: 3em auto;
   grid-template-areas:
   "header"
   "nav"
-  "content";
+  "main";
+}
+
+a{
+  color: #79a5b8;
+}
+
+a:visited{
+  color: #467488;
 }
 
 header{
@@ -28,7 +32,7 @@ nav{
 }
 
 content{
-  grid-area: content;
+  grid-area: main;
 }
 
 @media (min-width: 500px){
@@ -37,11 +41,17 @@ content{
     grid-template-rows: auto;
     grid-template-areas:
     "header header"
-    "nav    content";
+    "nav    main";
   }
 
-  body h1{
+  h1{
     font-size: 2em;
+    margin: .3em;
+  }
+
+  h1{
+    font-size: 1.4em;
+    padding: .2em;
   }
 
   nav{
@@ -49,6 +59,6 @@ content{
   }
 
   content{
-    padding: 1em;
+    padding: 0 1em;
   }
 }

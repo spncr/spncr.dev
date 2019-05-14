@@ -32,7 +32,16 @@ tag_page_layout: tag_page
 tag_page_dir: tag
 
 collections:
-  - projects
+  projects:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
