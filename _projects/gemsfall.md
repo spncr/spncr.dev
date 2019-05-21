@@ -3,6 +3,7 @@ title: GEMSfall
 tools:
   - pico-8
   - lua
+  - itch.io
 links:
   - label: see the code
     link: https://github.com/spencerberry/GEMSfall
