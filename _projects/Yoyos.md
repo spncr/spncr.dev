@@ -1,9 +1,10 @@
 ---
-title: Baloof
+title: Yoyo Drawer
 tools:
-  - pico-8
-  - lua
-  - itch.io
+  - rails
+  - ruby
+  - heroku
+  - aws
 links:
   - label: see the code
     link: https://github.com/spencerberry/baloof
