@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<img src="../assets/img/{{page.image}}">
+<h1>{{page.title}}</h1>
+<div class="tools">
+{% for tool in page.tools %}
+  <span class="tool">{{tool}}</span>
+{% endfor %}
+</div>
+{{content}}
+
+{% for link in page.links %}
+  <a href="{{link.link}}">{{link.label}}</a>
+    {% unless link == page.links.last %} | {% endunless %}
+{% endfor %}
+
+<div id="lists">
+  <div>
+    <h2>Challenges</h2>
+    <ul>
+    {% for challenge in page.challenges %}
+      <li>{{ challenge }}</li>
+    {% endfor %}
+    </ul>
+  </div>
+
+  <div>
+
+    <h2>Next Steps</h2>
+    <ul>
+    {% for todo in page.todos %}
+      <li>{{ todo }}</li>
+    {% endfor %}
+    </ul>
+  </div>
+
+</div>

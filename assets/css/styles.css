@@ -35,6 +35,30 @@ content{
   grid-area: main;
 }
 
+.tools{
+  margin: 1em 0;
+}
+.tools .tool{
+  background-color: purple;
+  padding: .2em .5em;
+  border-radius: .2em;
+}
+
+#lists{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#lists div{
+  padding: 1em 1%;
+}
+
+#lists div h2{
+  padding: 0 1em .2em;
+  margin: 0;
+}
+
+
 @media (min-width: 500px){
   body {
     grid-template-columns: 100px 1fr;
@@ -60,5 +84,10 @@ content{
 
   content{
     padding: 0 1em;
+  }
+
+  #lists{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
