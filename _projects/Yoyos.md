@@ -1,29 +1,25 @@
 ---
-title: Yoyo Drawer
+title: Portfolio Site
 tools:
-  - rails
+  - jekyll
   - ruby
-  - heroku
-  - aws
+  - github pages
 links:
   - label: see the code
-    link: https://github.com/spencerberry/yoyo_drawer
-  - label: check it out live
-    link: http://yoyos.spencerberry.com/
-image: yoyo_drawer.gif
+    link: https://github.com/spencerberry/spncr.dev
+  - label: you're already here
+    link: https://spncr.dev
+
+image: placeholder.jpg
 challenges:
-  - Rails patterns in general
-  - Refining my understanding of :has_many and modeling the data appropriately
-  - Active Storage, S3, and deployment in general
-  - Surfing through outdated Stack Overflows and the very terse Rails docs.
+  - Adjusting from rails to the much simpler Jekyll
+  - Themes can modify tons of things! Ended up having to rollback a theme after realizing it broke github pages.
 todos:
-  - Convert Make + Model creation into a single page form on the yoyo:new action.
-  - Image galleries for each yoyo
-  - Contact form for yoyos I'd take offer on
-  
+  - Make more projects!
+  - Would be cool to get tools working like tags with their own list of projects and links to the tech info
+
 ---
 
-This rails project feels a bit self centered, but I wanted to work on a simple project without a step by step tutorial.
+I needed somewhere to display my projects so far, and wanted something simple.
 
-I've been asked many times how many yoyos I own, and if I continue to catalog mine here, one day I might know the answer.
-[PICO-8](https://www.lexaloffle.com/pico-8.php "PICO-8 Fantasy Console") is a virtual console.
+[Jekyll](https://jekyllrb.com/) kept me in the Ruby mindset and was quick to get working.

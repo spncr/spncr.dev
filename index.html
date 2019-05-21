@@ -2,10 +2,17 @@
 title: Projects
 ---
 <h2>Projects</h2>
+<div class="projects">
 {% for project in site.projects %}
-  <div class="project">
-    <h3><a href="{{ project.url }}">{{project.title}}</a></h3>
-    <small>{{project.tags}}</small>
-    <p>{{project.content | markdownify}}</p>
+  <a href="{{ project.url }}">
+    <div class="project">
+    <img src="{{site.url}}\/assets\/img\/{{project.image}}" width ="256" height= " 256">
+    <h3>{{project.title}}</h3>
+    {% for tool in project.tools %}
+      <span class="tool">{{tool}}</span>
+    {% endfor %}
+    <!-- <p>{{project.content | markdownify}}</p> -->
   </div>
+  </a>
 {% endfor %}
+</div>

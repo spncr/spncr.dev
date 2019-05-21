@@ -11,8 +11,9 @@ layout: default
 {{content}}
 
 {% for link in page.links %}
-  <a href="{{link.link}}">{{link.label}}</a>
-    {% unless link == page.links.last %} | {% endunless %}
+  <a href="{{link.link}}" {% if link.nsfw %} class="nsfw" {% endif %}>{{link.label}}</a>
+
+    {% unless link == page.links.last %} <br /> {% endunless %}
 {% endfor %}
 
 <div id="lists">

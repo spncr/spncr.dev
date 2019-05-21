@@ -35,10 +35,19 @@ content{
   grid-area: main;
 }
 
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.project{
+  padding: 0.5em;
+}
 .tools{
   margin: 1em 0;
 }
-.tools .tool{
+.tool{
   background-color: purple;
   padding: .2em .5em;
   border-radius: .2em;
@@ -58,6 +67,11 @@ content{
   margin: 0;
 }
 
+
+.nsfw::before{
+  color: #cb5959;
+  content: "*NSFW* ";
+}
 
 @media (min-width: 640px){
   body {
