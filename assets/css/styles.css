@@ -1,29 +1,53 @@
+:root{
+  --dark: #1f1b2f;
+  --darkest: #001;
+  --dark_bright: #1c0050;
+  --cool : #568ac1;
+  --cool_bright: #4657c8;
+  --cool_dim: #3d4499;
+  --warm : #e7dfb9;
+  --warning: #ff2a7d;
+  --alert : #ffc950;
+  --success : #25c4da;
+}
+
 body {
   display: grid;
-  background-color: #150e22;
-  color: #e9deb4;
+  background-color: var(--dark);
+  color: var(--warm);
+  margin: 0;
   grid-gap: .2em;
-  grid-template-columns: auto;
-  grid-template-rows: 3em auto;
   grid-template-areas:
   "header"
-  "nav"
   "main";
 }
 
 a{
-  color: #79a5b8;
+  color: var(--cool);
 }
 
 a:visited{
-  color: #467488;
+  color: var(--cool_dim);
+}
+
+a:hover{
+  color: var(--cool_bright);
 }
 
 header{
+  padding: 0 1em;
   grid-area: header;
 }
 
 h1{
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+h3 {
   font-size: 1em;
 }
 
@@ -33,24 +57,49 @@ nav{
 
 content{
   grid-area: main;
+  padding: 0;
+  background-color: var(--darkest);
 }
 
 .projects{
-  display: flex;
-  flex-wrap: wrap;
-
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .project{
-  padding: 0.5em;
+  border: 6px solid var(--dark);
+  height: 100%:
 }
+
+.project img{
+  width: 100%;
+  height: auto;
+}
+
+.project h3{
+  padding: .4em;
+  margin: 0;
+}
+
+.project:hover{
+  background-color: var(--dark_bright);
+  color: var(--warm);
+  border: none;
+}
+
 .tools{
-  margin: 1em 0;
+  padding: 1em;
 }
 .tool{
-  background-color: purple;
-  padding: .2em .5em;
-  border-radius: .2em;
+  display: inline-block;
+  position: relative;
+  font-size: .8em;
+  background-color: var(--cool);
+  color: var(--dark);
+  padding: .1em .3em;
+  margin: .3em 2px 1em;
+  border-radius: .1em;
+  line-height: 1.2;
 }
 
 #lists{
@@ -69,35 +118,37 @@ content{
 
 
 .nsfw::before{
-  color: #cb5959;
+  color: var(--warning);
   content: "*NSFW* ";
 }
 
 @media (min-width: 640px){
   body {
-    grid-template-columns: 100px 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas:
-    "header header"
-    "nav    main";
+    "header"
+    "nav"
+    "main";
   }
 
   h1{
     font-size: 2em;
     margin: .3em;
-  }
-
-  h1{
-    font-size: 1.4em;
     padding: .2em;
   }
 
-  nav{
-    border-right: 1px solid Ivory;
+  header,
+  nav {
+    text-align: center;
   }
 
   content{
     padding: 0 1em;
+  }
+
+  .projects{
+    grid-template-columns: repeat(3, 1fr);
   }
 
   #lists{

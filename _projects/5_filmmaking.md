@@ -1,9 +1,8 @@
 ---
-title: Media
+title: Motion Pictures
 tools:
-  - 16mm
-  - video
-  - final cut pro
+  - writer
+  - director
 links:
   - label: Gelato Bandalore (Shot + Edited)
     link: https://vimeo.com/46157163

@@ -1,8 +1,8 @@
 ---
 title: Toys
 tools:
-  - patience
-  - creativity
+  - designer
+  - trick inventor
 links:
   - label: Theodore
     link: https://blog.spencerberry.com/theodore/
