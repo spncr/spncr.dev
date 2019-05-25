@@ -17,7 +17,7 @@ html {
 
 body {
   display: grid;
-  background-color: var(--cool_dim);
+  background-color: var(--darkest);
   color: var(--warm);
   margin: 0;
   grid-gap: .2em;
