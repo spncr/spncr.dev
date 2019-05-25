@@ -1,9 +1,9 @@
 :root{
-  --dark: #1f1b2f;
-  --darkest: #001;
+  --dark: #170236;
+  --darkest: #0c0218;
   --dark_bright: #1c0050;
-  --cool : #568ac1;
-  --cool_bright: #4657c8;
+  --cool : #b6c9e9;
+  --cool_bright: #7398eb;
   --cool_dim: #3d4499;
   --warm : #e7dfb9;
   --warning: #ff2a7d;
@@ -11,9 +11,13 @@
   --success : #25c4da;
 }
 
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 body {
   display: grid;
-  background-color: var(--dark);
+  background-color: var(--cool_dim);
   color: var(--warm);
   margin: 0;
   grid-gap: .2em;
@@ -35,12 +39,24 @@ a:hover{
 }
 
 header{
-  padding: 0 1em;
+  padding: 6em 1em 0;
   grid-area: header;
+  background: url('../img/SMBbgOG.svg');
+  background-repeat: repeat-x;
+  background-position: top left;
+  background-size: contain;
 }
 
 h1{
   font-size: 3em;
+
+}
+
+a h1,
+a h2 {
+  color: var(--warm);
+  padding: 0;
+  margin: 0;
 }
 
 h2 {
@@ -67,8 +83,12 @@ content{
 }
 
 .project{
-  border: 6px solid var(--dark);
-  height: 100%:
+  box-sizing: border-box;
+  border: 6px solid var(--dark_bright);;
+  height: 100%;
+  -webkit-transition: color 1s, border-color 2s, background-color 1.5s;
+  transition: color 1s, border-color 2s, background-color 1.5s;
+
 }
 
 .project img{
@@ -84,7 +104,7 @@ content{
 .project:hover{
   background-color: var(--dark_bright);
   color: var(--warm);
-  border: none;
+  border-color: var(--darkest);
 }
 
 .tools{
