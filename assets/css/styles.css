@@ -39,9 +39,9 @@ a:hover{
 }
 
 header{
-  padding: 6em 1em 0;
+  padding: 1em;
   grid-area: header;
-  background: url('../img/SMBbgOG.svg');
+  background: url('../img/SMB2019.svg');
   background-repeat: repeat-x;
   background-position: top left;
   background-size: contain;
@@ -60,11 +60,11 @@ a h2 {
 }
 
 h2 {
-  font-size: 1.4em;
+  font-size: 2em;
 }
 
 h3 {
-  font-size: 1em;
+  font-size: 1.6em;
 }
 
 nav{
@@ -79,12 +79,12 @@ content{
 
 .projects{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(128px, 272px))
 }
 
 .project{
   box-sizing: border-box;
-  border: 6px solid var(--dark_bright);;
+  border: 8px solid var(--dark_bright);;
   height: 100%;
   -webkit-transition: color 1s, border-color 2s, background-color 1.5s;
   transition: color 1s, border-color 2s, background-color 1.5s;
@@ -92,7 +92,7 @@ content{
 }
 
 .project img{
-  width: 100%;
+  max-width: 256px;
   height: auto;
 }
 
@@ -108,7 +108,7 @@ content{
 }
 
 .tools{
-  padding: 1em;
+  padding:  0 .7em;
 }
 .tool{
   display: inline-block;
@@ -148,19 +148,12 @@ content{
     grid-template-rows: auto;
     grid-template-areas:
     "header"
-    "nav"
     "main";
   }
 
   h1{
-    font-size: 2em;
     margin: .3em;
     padding: .2em;
-  }
-
-  header,
-  nav {
-    text-align: center;
   }
 
   content{
@@ -168,7 +161,6 @@ content{
   }
 
   .projects{
-    grid-template-columns: repeat(3, 1fr);
   }
 
   #lists{
