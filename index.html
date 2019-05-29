@@ -1,21 +1,20 @@
 ---
 title: Projects
+about: include about.md
 ---
 <h2>Projects</h2>
 <div class="projects">
-{% for project in site.projects %}
-  <a href="{{ project.url }}">
-    <div class="project">
-      <img src="{{site.url}}/assets/img/{{project.image}}">
-      <h3>{{project.title}}</h3>
-      <div class="tools">
-        {% for tool in project.tools %}
-          <span class="tool">{{tool}}</span>
-        {% endfor %}
+  {% for project in site.projects %}
+    <a href="{{ project.url }}">
+      <div class="project">
+        <img src="{{site.url}}/assets/img/{{project.image}}">
+        <h3>{{project.title}}</h3>
+        <div class="tools">
+          {% for tool in project.tools %}
+            <span class="tool">{{tool}}</span>
+          {% endfor %}
+        </div>
       </div>
-    <!-- <p>{{project.content | markdownify}}</p> -->
-  </div>
-</a>
-
-{% endfor %}
+    </a>
+  {% endfor %}
 </div>

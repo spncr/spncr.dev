@@ -16,14 +16,11 @@ html {
 }
 
 body {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
   background-color: var(--darkest);
   color: var(--warm);
-  margin: 0;
-  grid-gap: .2em;
-  grid-template-areas:
-  "header"
-  "main";
 }
 
 a{
@@ -72,19 +69,22 @@ nav{
 }
 
 content{
+  flex-basis: 800px;
   grid-area: main;
   padding: 0;
+  margin-top: 1em;
   background-color: var(--darkest);
 }
 
 .projects{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(128px, 272px))
+  grid-template-columns: repeat(auto-fit, minmax(128px, 296px))
 }
 
 .project{
+  background-color: var(--dark_bright);
   box-sizing: border-box;
-  border: 8px solid var(--dark_bright);;
+  border: 20px solid var(--darkest);
   height: 100%;
   -webkit-transition: color 1s, border-color 2s, background-color 1.5s;
   transition: color 1s, border-color 2s, background-color 1.5s;
@@ -140,6 +140,18 @@ content{
 .nsfw::before{
   color: var(--warning);
   content: "*NSFW* ";
+}
+
+.about {
+  background-color: var(--dark);
+}
+
+footer{
+  border-top: 1px solid var(--warm);
+  margin-top: 1em;
+}
+footer a{
+  font-size: .8em;
 }
 
 @media (min-width: 640px){
