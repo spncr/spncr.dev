@@ -1,21 +1,30 @@
 ---
 layout: default
 ---
+<div class="project-description">
+
 <img src="../assets/img/{{page.image}}">
-<h1>{{page.title}}</h1>
+<h3>{{page.title}}</h3>
 <div class="tools">
 {% for tool in page.tools %}
   <span class="tool">{{tool}}</span>
 {% endfor %}
 </div>
-{{content}}
-
+  {{content}}
+</div>
+<div class="project-links">
 {% for link in page.links %}
-  <a href="{{link.link}}" {% if link.nsfw %} class="nsfw" {% endif %}>{{link.label}}</a>
+    <a href="{{link.link}}"
+      class="project-link
+      {% if link.nsfw %} {nsfw}{% endif %}
+      {% if link.image %} image" style="background-image:url('{{site.url}}/assets/img/{{link.image}}');"{% endif %}
+      ">
+      <span class="project-link-label">{{link.label}}</span>
+    </a>
 
-    {% unless link == page.links.last %} <br /> {% endunless %}
-{% endfor %}
-
+      {% unless link == page.links.last %} <br /> {% endunless %}
+  {% endfor %}
+</div>
 <div id="lists">
   <div>
     <h2>Victories</h2>

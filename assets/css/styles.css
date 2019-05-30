@@ -26,6 +26,8 @@ body {
 
 header,
 .projects,
+.project-description,
+.project-links,
 .about,
 footer{
   padding-left: 20px;
@@ -127,6 +129,21 @@ div.projects{
   line-height: 1.2;
 }
 
+.project-link.image{
+  display: block;
+  width: 256px;
+  height: 256px;
+  vertical-align: bottom;
+}
+
+.image .project-link-label{
+  position: relative;
+  display: block;
+  background-color: var(--dark);
+  background-opacity: .2;
+  top: 192px;
+  font-size: 16px;
+}
 #lists{
   display: grid;
   grid-template-columns: 1fr;
