@@ -11,12 +11,12 @@ links:
     link: https://spncr.dev
 
 image: placeholder.jpg
-challenges:
+victories:
   - Adjusting from rails to the much simpler Jekyll
-  - Themes can modify tons of things! Ended up having to rollback a theme after realizing it broke github pages.
+  - Custom project collection so I don't have to mess with post dates
+  - Avoided themes to keep myself honest about my current abilities
 todos:
   - Make more projects!
-  - Would be cool to get tools working like tags with their own list of projects and links to the tech info
 
 ---
 

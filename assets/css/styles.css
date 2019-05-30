@@ -21,10 +21,19 @@ body {
   flex-grow: 1;
   background-color: var(--darkest);
   color: var(--warm);
+  margin: 0;
+}
+
+header,
+.projects,
+.about,
+footer{
+  padding-left: 20px;
 }
 
 a{
   color: var(--cool);
+  text-decoration: none;
 }
 
 a:visited{
@@ -36,7 +45,6 @@ a:hover{
 }
 
 header{
-  padding: 1em;
   grid-area: header;
   background: url('../img/SMB2019.svg');
   background-repeat: repeat-x;
@@ -46,7 +54,6 @@ header{
 
 h1{
   font-size: 3em;
-
 }
 
 a h1,
@@ -58,25 +65,23 @@ a h2 {
 
 h2 {
   font-size: 2em;
+  margin-top: 0;
+
 }
 
 h3 {
   font-size: 1.6em;
 }
 
-nav{
-  grid-area: nav;
-}
-
 content{
   flex-basis: 800px;
   grid-area: main;
   padding: 0;
-  margin-top: 1em;
+  margin: 1em 0 0 ;
   background-color: var(--darkest);
 }
 
-.projects{
+div.projects{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(128px, 296px))
 }
@@ -144,11 +149,14 @@ content{
 
 .about {
   background-color: var(--dark);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 footer{
-  border-top: 1px solid var(--warm);
-  margin-top: 1em;
+  border-top: 4px solid var(--cool_dim);
+  margin: 0;
+  padding-bottom: 8px
 }
 footer a{
   font-size: .8em;
@@ -166,10 +174,6 @@ footer a{
   h1{
     margin: .3em;
     padding: .2em;
-  }
-
-  content{
-    padding: 0 1em;
   }
 
   .projects{

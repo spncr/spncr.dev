@@ -1,4 +1,12 @@
-- name: Github
-  link: github.com/spencerberry
-- name: Blog
-  link: blog.spencerberry.com
+- name: github
+  link: https://github.com/spencerberry
+- name: personal blog
+  link: https://blog.spencerberry.com
+- name: gamedev blog
+  link: https://onomatopoeia.blog
+- name: itch
+  link: https://spncr.itch.io/
+- name: twitter
+  link: https://twitter.com/spencerberry
+- name: linkedin
+  link: https://linkedin.com/in/spencerwberry/

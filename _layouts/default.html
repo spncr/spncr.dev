@@ -9,10 +9,12 @@
   <body>
     {% include header.html %}
     <!-- {% include navigation.html %} -->
-    <content>{{ content }}</content>
-    <div class="about">
-      {% include about.html %}
-    </div>
+    <content>{{ content }}
+      <div class="about">
+        {% include about.html %}
+      </div>
+    </content>
+
     <footer>
       {% include footer.html %}
     </footer>

@@ -11,19 +11,19 @@ links:
   - label: check it out live
     link: http://yoyos.spencerberry.com/
 image: yoyo_drawer.gif
-challenges:
-  - Rails patterns in general
-  - Refining my understanding of :has_many and modeling the data appropriately
-  - Active Storage, S3, Heroku and deployment in general
-  - Surfing through outdated Stack Overflows and the very terse Rails docs.
+victories:
+  - Planned and built a rails-centric app based on a Yoyo object
+  - Using the :has_many, :belongs_to relationship to model the data appropriately
+  - Using Active Storage, S3 and Heroku to deploy
+  - Authentication and securing actions for only logged in users
 todos:
-  - Convert Make + Model creation into a single page form on the yoyo:new action.
+  - Convert Make + Model creation into a single page form on the yoyo:new action
   - Image galleries for each yoyo
-  - Contact form for displayed on yoyos which are set to "accept offers"
+  - Contact form for yoyos which are set to "accept offers"
 
 ---
 
-The goal for this project was to work on a simple project without the guidance of a tutorial.
+The goal for this project was to create a simple rails project and deploy it.
 
 The yoyo drawer takes uploaded yoyos and displays them as a collection with a bit of data about each.
 

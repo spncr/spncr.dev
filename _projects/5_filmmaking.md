@@ -20,7 +20,7 @@ links:
     link: https://vimeo.com/9140971
     nsfw: true
 image: placeholder.jpg
-challenges:
+victories:
   - Learning to delegate, especially for bigger products (Snout, Fisherman)
   - Constraints are extra important, for me, when it comes to making art! (Yoyo stuff)
 todos:

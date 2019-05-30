@@ -1,7 +1,7 @@
 <nav>
   {% for item in site.data.footer_links %}
-    <a href="{{ item.link }}" class="nav_link{% if page.url == item.link %} active{% endif %}">
-      {{ item.name }}{% unless item == site.data.footer_links.last %} | {% endunless %}
-    </a>
+    <a href="{{ item.link }}" class="nav_link">
+      {{ item.name }}</a>
+    {% unless item == site.data.footer_links.last %} : {% endunless %}
   {% endfor %}
 </nav>
