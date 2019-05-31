@@ -10,7 +10,7 @@ links:
     link: https://blog.spencerberry.com/walter/
   - label: Walter Interview
     link: https://www.youtube.com/watch?v=toYcQoWjmBg
-image: toys.jpg
+image: toys.gif
 victories:
   - Learning to delegate, especially for bigger products (Snout, Fisherman)
   - Constraints are extra important, for me, when it comes to making art! (Yoyo stuff)
