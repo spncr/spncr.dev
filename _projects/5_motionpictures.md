@@ -20,7 +20,7 @@ links:
   - label: Demo Reel
     link: https://vimeo.com/9140971
     nsfw: true
-image: placeholder.jpg
+image: motionPictures.gif
 victories:
   - Self-taught in my teens to start promoting myself and friends
   - Won an underground video contest with my first stop motion project
