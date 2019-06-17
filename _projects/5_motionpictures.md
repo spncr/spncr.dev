@@ -8,18 +8,19 @@ links:
     link: https://vimeo.com/46157163
   - label: Debt in Knowledge (original audio)
     link: https://www.youtube.com/watch?v=_LsfZlfaImA
-  - label: "     (with radiohead music)"
-    link: https://vimeo.com/16161252
+    altlink: https://vimeo.com/16161252
+    altlabel: "(with radiohead music)"
   - label: The Snout (Wrote + Directed)
     link: https://vimeo.com/172941998
+    image: placeholder.jpg
     nsfw: ['language', 'misogyny', 'blood']
   - label: The Fisherman (Directed)
     link: https://vimeo.com/173718140
     image: TheFisherman.gif
-    nsfw: true
+    nsfw: ['violence', 'anachronisms']
   - label: Demo Reel
     link: https://vimeo.com/9140971
-    nsfw: true
+    nsfw: ['language', 'violence']
 image: motionPictures.gif
 victories:
   - Self-taught in my teens to start promoting myself and friends

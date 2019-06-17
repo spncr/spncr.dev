@@ -12,19 +12,7 @@ layout: default
 </div>
   {{content}}
 </div>
-<div class="project-links">
-{% for link in page.links %}
-    <a href="{{link.link}}"
-      class="project-link
-      {% if link.nsfw %} nsfw{% endif %}
-      {% if link.image %} image" style="background-image:url('{{site.url}}/assets/img/{{link.image}}');"{% endif %}
-      ">
-      <span class="project-link-label">{{link.label}}</span>
-    </a>
 
-      {% unless link == page.links.last %} <br /> {% endunless %}
-  {% endfor %}
-</div>
 <div id="lists">
   <div>
     <h2>Victories</h2>
@@ -45,4 +33,41 @@ layout: default
     </ul>
   </div>
 
+</div>
+
+<h4>Links</h4>
+
+<div class="project-links">
+  {% for link in page.links %}
+    <div class="project-link">
+      <a href="{{link.link}}">
+        {% if link.image %}
+          <img class="project-link-image"
+          src="{{site.url}}/assets/img/{{link.image}}" />
+        {% else %}
+        {% endif %}
+        <h5>{{link.label}}<h5>
+
+        {% if link.nsfw %}
+          {% for reason in link.nsfw %}
+            <span class="nsfw">{{reason}}</span>
+          {% endfor %}
+        {% endif %}
+      </a>
+      {% if link.altlink %}
+        <a href="{{link.altlink}}">
+          <h5>{{link.altlabel}}</h5>
+        </a>
+      {% endif %}
+    </div>
+
+
+    <!-- <a href="{{link.link}}"
+      class="project-link
+      {% if link.nsfw %} nsfw{% endif %}
+      {% if link.image %} image" style="background-image:url('{{site.url}}/assets/img/{{link.image}}');"{% endif %}">
+      <span class="project-link-label">{{link.label}}</span>
+    </a> -->
+
+  {% endfor %}
 </div>

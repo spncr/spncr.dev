@@ -20,6 +20,10 @@ todos:
   - Add the rest of my film school projects, and video contest stuff
 
 ---
-I have a Bachelor's Degree in motion picture and television directing.
+I was a professional yoyo player from 2001-2008.
 
-I've also spent some time shooting and editing yoyo clip videos for friends of mine, from 2000 onward.
+I have invented at least 50 tricks.
+
+I conceived, designed and produced two unique yoyo designs, Walter and Theodore.
+
+I love skill toys. I enjoy cubing, juggling, diabolo, puzzles and tactile toys of all sorts.
