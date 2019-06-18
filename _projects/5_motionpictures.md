@@ -1,5 +1,6 @@
 ---
 title: Motion Pictures
+image: motionPictures.gif
 tools:
   - writer
   - director
@@ -25,7 +26,6 @@ examples:
     image: TheFisherman.gif
     nsfw: ['violence', 'anachronisms']
 
-image: motionPictures.gif
 victories:
   - Self-taught in my teens to start promoting myself and friends
   - Won an underground video contest with my first stop motion project

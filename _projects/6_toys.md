@@ -8,8 +8,11 @@ links:
     link: https://blog.spencerberry.com/theodore/
   - label: Walter
     link: https://blog.spencerberry.com/walter/
+  - label: 365 Yoyo Tricks (removed)
+    link: http://365yoyotricks.com/tag/spencer-berry/
   - label: Walter Interview
     link: https://www.youtube.com/watch?v=toYcQoWjmBg
+
 image: toys.gif
 victories:
   - Learning to delegate, especially for bigger products (Snout, Fisherman)
