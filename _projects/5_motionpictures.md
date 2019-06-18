@@ -27,7 +27,7 @@ examples:
     altlabel: "(with radiohead music)"
   - label: Gelato Bandalore
     link: https://vimeo.com/46157163
-    image: placeholder.jpg
+    image: gelato.gif
     roles: ['Camera', 'Editor']
 victories:
   - Self-taught in my teens to start promoting myself and friends
