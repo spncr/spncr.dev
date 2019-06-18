@@ -5,15 +5,13 @@ about: include about.md
 <h2 class="projects">Projects</h2>
 <div class="projects">
   {% for project in site.projects %}
-    <a href="{{ project.url }}">
-      <div class="project">
-        <img src="{{site.url}}/assets/img/{{project.image}}">
-        <h3>{{project.title}}</h3>
-        <div class="tools">
-          {% for tool in project.tools %}
-            <span class="tool">{{tool}}</span>
-          {% endfor %}
-        </div>
+    <a href="{{ project.url }}" class="project">
+      <img src="{{site.url}}/assets/img/{{project.image}}">
+      <h3>{{project.title}}</h3>
+      <div class="tools">
+        {% for tool in project.tools %}
+          <span class="tool">{{tool}}</span>
+        {% endfor %}
       </div>
     </a>
   {% endfor %}

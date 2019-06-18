@@ -6,10 +6,10 @@ tools:
   - heroku
   - aws
 links:
-  - label: see the code
-    link: https://github.com/spencerberry/yoyo_drawer
   - label: check it out live
     link: http://yoyos.spencerberry.com/
+  - label: see the code
+    link: https://github.com/spencerberry/yoyo_drawer
 image: yoyo_drawer.gif
 victories:
   - Planned and built a rails-centric app based on a Yoyo object

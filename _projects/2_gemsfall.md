@@ -5,10 +5,10 @@ tools:
   - lua
   - itch.io
 links:
-  - label: see the code
-    link: https://github.com/spencerberry/GEMSfall
   - label: play in the browser
     link: https://spncr.itch.io/gemsfall
+  - label: see the code
+    link: https://github.com/spencerberry/GEMSfall
 image: gemsfall.gif
 victories:
   - Refining logic into tables to avoid duplicate code and simplify future features (cells, the block, the board)

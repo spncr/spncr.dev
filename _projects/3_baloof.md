@@ -5,10 +5,10 @@ tools:
   - lua
   - itch.io
 links:
-  - label: see the code
-    link: https://github.com/spencerberry/baloof
   - label: play in the browser
     link: https://spncr.itch.io/baloof
+  - label: see the code
+    link: https://github.com/spencerberry/baloof
 image: baloof.gif
 victories:
   - Parallax layers that can easily be tweaked

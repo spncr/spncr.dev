@@ -4,10 +4,16 @@ tools:
   - writer
   - director
 links:
+- label: Demo Reel
+  link: https://vimeo.com/9140971
+
+examples:
   - label: Gelato Bandalore (Shot + Edited)
     link: https://vimeo.com/46157163
+    image: placeholder.jpg
   - label: Debt in Knowledge (original audio)
     link: https://www.youtube.com/watch?v=_LsfZlfaImA
+    image: placeholder.jpg
     altlink: https://vimeo.com/16161252
     altlabel: "(with radiohead music)"
   - label: The Snout (Wrote + Directed)
@@ -18,9 +24,7 @@ links:
     link: https://vimeo.com/173718140
     image: TheFisherman.gif
     nsfw: ['violence', 'anachronisms']
-  - label: Demo Reel
-    link: https://vimeo.com/9140971
-    nsfw: ['language', 'violence']
+
 image: motionPictures.gif
 victories:
   - Self-taught in my teens to start promoting myself and friends
