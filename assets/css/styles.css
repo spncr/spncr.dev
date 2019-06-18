@@ -122,13 +122,16 @@ content{
   color: var(--warm_bright);
 }
 
-.tools{
+.tools,
+.roles{
   padding:  0 .7em;
 }
-.tool{
+
+.tool,
+.role{
   display: inline-block;
   position: relative;
-  font-size: .8em;
+  font-size: 14px;
   background-color: var(--cool);
   color: var(--dark);
   padding: .1em .3em;
@@ -148,21 +151,30 @@ content{
   grid-template-columns: 1fr 1fr;
 }
 
-
 .nsfw{
+  visibility:hidden;
   color: var(--warning);
-  font-size: 13px;
+  font-size: 12px;
+  position: relative;
+  top: -40px;
   text-transform: uppercase;
-  position: absolute;
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(80,0,0,.5);
   width: 252px;
   padding: 2px;
 }
 
+.example:hover .nsfw{
+  visibility: visible;
+}
+
+
+.about,
+.lists{
+  padding-top: 10px;
+}
 
 .about {
   background-color: var(--dark);
-  padding: 20px inherit;
   border-bottom: 8px solid var(--dark_bright);
 }
 
@@ -192,14 +204,5 @@ footer a:visited{
     grid-template-areas:
     "header"
     "main";
-  }
-
-
-  .projects{
-  }
-
-  #lists{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
   }
 }

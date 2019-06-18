@@ -41,19 +41,23 @@ layout: default
 </div>
 
 {% if page.examples %}
+  <h3>
   <div class="examples">
     {% for example in page.examples %}
       <a href="{{ example.link }}" class="example">
-        {% if example.nsfw %}
-          <span class="nsfw">⚠️
+        <img class="example-image"
+        src="{{site.url}}/assets/img/{{ example.image }}" />{% if example.nsfw %}<div class="nsfw">⚠️
           {% for reason in example.nsfw %}
             {{reason}} {% unless reason == example.nsfw.last %}-{% endunless %}
           {% endfor %}
-          </span>
+        </div>
         {% endif %}
-        <img class="project-link-image"
-        src="{{site.url}}/assets/img/{{ example.image }}" />
         <h5>{{example.label}}</h5>
+        <div class="roles">
+          {% for role in example.roles %}
+          <span class="role">{{role}}</span>
+          {% endfor %}
+        </div>
         {{example.description}}
       </a>
     {% endfor %}

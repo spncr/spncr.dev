@@ -8,11 +8,14 @@ links:
     link: https://blog.spencerberry.com/theodore/
   - label: Walter
     link: https://blog.spencerberry.com/walter/
-  - label: 365 Yoyo Tricks (removed)
-    link: http://365yoyotricks.com/tag/spencer-berry/
+  - label: 2012 Finnish Nationals
+    link: https://www.youtube.com/watch?v=k4TfA7jDskk
   - label: Walter Interview
     link: https://www.youtube.com/watch?v=toYcQoWjmBg
-
+  - label: Yoyonews Interview
+    link: http://yoyonews.com/2013/09/13/interview-spencer-berry
+  - label: Play like a wild man
+    link: http://yoyonews.com/2013/04/05/fixed-friday-play-like-a-wild-man-with-spencer-berry
 image: toys.gif
 victories:
   - Learning to delegate, especially for bigger products (Snout, Fisherman)

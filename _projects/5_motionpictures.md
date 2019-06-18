@@ -9,23 +9,26 @@ links:
   link: https://vimeo.com/9140971
 
 examples:
-  - label: Gelato Bandalore (Shot + Edited)
-    link: https://vimeo.com/46157163
-    image: placeholder.jpg
-  - label: Debt in Knowledge (original audio)
-    link: https://www.youtube.com/watch?v=_LsfZlfaImA
-    image: placeholder.jpg
-    altlink: https://vimeo.com/16161252
-    altlabel: "(with radiohead music)"
-  - label: The Snout (Wrote + Directed)
+  - label: The Snout
     link: https://vimeo.com/172941998
-    image: placeholder.jpg
+    image: theSnout.gif
+    roles: ['Writer', 'Director']
     nsfw: ['language', 'misogyny', 'blood']
-  - label: The Fisherman (Directed)
+  - label: The Fisherman
     link: https://vimeo.com/173718140
     image: TheFisherman.gif
+    roles: ['Director']
     nsfw: ['violence', 'anachronisms']
-
+  - label: Debt in Knowledge
+    link: https://www.youtube.com/watch?v=_LsfZlfaImA
+    image: debt.gif
+    roles: 'Created'
+    altlink: https://vimeo.com/16161252
+    altlabel: "(with radiohead music)"
+  - label: Gelato Bandalore
+    link: https://vimeo.com/46157163
+    image: placeholder.jpg
+    roles: ['Camera', 'Editor']
 victories:
   - Self-taught in my teens to start promoting myself and friends
   - Won an underground video contest with my first stop motion project
