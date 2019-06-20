@@ -3,12 +3,12 @@
   --darkest: #0c0218;
   --dark_bright: #1c0050;
   --cool : #b6c9e9;
-  --cool_bright: #7398eb;
+  --cool_bright: #c7d8ff;
   --cool_dim: #3d4499;
-  --warm: #e3dfcd;
-  --warm_bright: #f6e174;
-  --warm_dim: #ddd39f;
-  --warning: #ff2a7d;
+  --warm: #ede9d9;
+  --warm_bright: #fced9a;
+  --warm_dim: #e8dfb0;
+  --warning: #ff2a44;
   --alert : #ffc950;
   --success : #25c4da;
 }
@@ -129,25 +129,26 @@ footer{
 .project h3,
 .example ,
 .example h5,
+.nsfw,
 .link,
 .nav_link
 {
-  -webkit-transition: color .5s, border-color .5s, background-color .5s;
-  transition: color .5s, border-color .5s, background-color .5s;
+  -webkit-transition: color .5s, border-color .5s, background-color .5s, opacity .4s;
+  transition: color .5s, border-color .5s, background-color .5s, opacity .4s;
 
 }
 
 .project,
 .example{
   background-color: var(--darkest);
-  box-sizing: border-box;
   border: 4px solid var(--dark_bright);
 }
 
 .project img,
 .example img{
   max-width: 256px;
-  height: auto;
+  font-size: 0;
+  line-height: 0;
 }
 
 .project h3,
@@ -199,46 +200,41 @@ footer{
   background-color: var(--dark);
 }
 
-.link a{
-  color: var(--warm);
-}
-
 .lists{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.example li{
+.example figure{
+  margin: 0;
   position: relative;
-}
-
-.example li a{
-  position: absolute;
+  line-height: 0;
   display: block;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+}
+.example a{
+  height: 100%;
+  width: 100%;
 }
 
-.example li .nsfw{
-  color: var(--warning);
-  font-size: 12px;
+.example .nsfw{
+  box-sizing: border-box;
   position: absolute;
-  top: 20px;
+  width: 100%;
+  font-size: 12px;
+  bottom: 0;
+  line-height: 1;
   text-transform: uppercase;
-  background-color: rgba(80,0,0,.5);
-  width: 252px;
-  padding: 2px;
-  z-index: 10;
+  background-color: var(--dark);
+  opacity: .4;
+  padding: 6px;
+}
+
+.example:hover .nsfw{
+  opacity: .7;
+  background-color: var(--warning);
+  color: var(--dark_bright);
 }
 
 @media (min-width: 640px){
-  body {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-    "header"
-    "main";
-  }
+
 }

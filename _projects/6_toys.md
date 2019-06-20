@@ -4,9 +4,9 @@ tools:
   - designer
   - trick inventor
 links:
-  - label: See Theodore
+  - label: see theodore
     link: https://blog.spencerberry.com/theodore/
-  - label: Check out Walter
+  - label: check out walter
     link: https://blog.spencerberry.com/walter/
 image: toys.gif
 victories:

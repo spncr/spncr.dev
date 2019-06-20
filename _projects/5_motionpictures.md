@@ -5,7 +5,7 @@ tools:
   - writer
   - director
 links:
-- label: Watch the Demo Reel
+- label: watch the Demo Reel
   link: https://vimeo.com/9140971
 
 examples:
