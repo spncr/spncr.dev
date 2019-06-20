@@ -5,7 +5,7 @@
   --cool : #b6c9e9;
   --cool_bright: #c7d8ff;
   --cool_dim: #3d4499;
-  --warm: #ede9d9;
+  --warm: #eee9d3;
   --warm_bright: #fced9a;
   --warm_dim: #e8dfb0;
   --warning: #ff2a44;
@@ -14,7 +14,7 @@
 }
 
 html {
-  font-family: 'Source Sans Pro', sans-serif;
+  Font-Family: 'Open Sans', Sans-Serif;
   font-size: 18px;
 }
 
@@ -30,6 +30,7 @@ body {
 h1, h2, h3, h4, h5, h6{
   margin: 0;
   padding: 0;
+  Font-Family: 'Raleway', Sans-Serif;
 }
 
 h1 { font-size: 54px;}
@@ -71,14 +72,13 @@ header{
   background-repeat: repeat-x;
   background-position: top left;
   background-size: contain;
-  padding-top: 10px;
-  min-height: 180px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 content{
   grid-area: main;
   padding: 0;
-  margin: 1em 0 0 ;
   background-color: var(--darkest);
 }
 
@@ -97,7 +97,9 @@ footer{
   padding-bottom: 20px;
 }
 
-.about,
+.about{
+padding-top: 0;  }
+
 .lists{
   padding-top: 10px;
 }
