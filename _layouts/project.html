@@ -1,25 +1,25 @@
 ---
 layout: default
 ---
-<div class="project-description">
+<div class="project-description section">
 
 <img src="../assets/img/{{page.image}}">
 <h2>{{page.title}}</h2>
-<div class="tools">
+<div class="tags">
 {% for tool in page.tools %}
-  <span class="tool">{{tool}}</span>
+  <span class="tag">{{tool}}</span>
 {% endfor %}
 </div>
   {{content}}
 </div>
 
-<div class="links">
+<div class="links section bright" >
   {% for link in page.links %}
-    <a href="{{link.link}}" class="link">{{link.label}}</a>
+    <a href="{{link.link}}" class="link smooth">{{link.label}}</a>
   {% endfor %}
 </div>
 
-<div class="lists">
+<div class="lists section">
   <div>
     <h3>Victories</h3>
     <ul>
@@ -41,16 +41,16 @@ layout: default
 </div>
 
 {% if page.examples %}
-  <div class="examples">
+  <div class="examples section bright">
     <h4>More to see</h4>
-    <ul>
+    <ul class="tiles">
     {% for example in page.examples %}
-        <li class="example">
+        <li class="example tile smooth">
           <a href="{{ example.link }}" >
             <figure>
               <img class="example-image"
             src="{{site.url}}/assets/img/{{ example.image }}" />
-            {% if example.nsfw %}<figcaption class="nsfw">⚠️
+            {% if example.nsfw %}<figcaption class="nsfw smooth">⚠️
               {% for reason in example.nsfw %}
                 {{reason}} {% unless reason == example.nsfw.last %}&{% endunless %}
               {% endfor %}
@@ -58,10 +58,10 @@ layout: default
             {% endif %}
             </figure>
 
-            <h5>{{example.label}}</h5>
-            <div class="roles">
+            <h5 class="title smooth">{{example.label}}</h5>
+            <div class="tags">
               {% for role in example.roles %}
-              <span class="role">{{role}}</span>
+              <span class="tag">{{role}}</span>
               {% endfor %}
             </div>
           </a>

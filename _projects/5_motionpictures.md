@@ -22,7 +22,7 @@ examples:
   - label: Debt in Knowledge
     link: https://www.youtube.com/watch?v=_LsfZlfaImA
     image: debt.gif
-    roles: 'Created'
+    roles: 'Creator'
     altlink: https://vimeo.com/16161252
     altlabel: "(with radiohead music)"
   - label: Gelato Bandalore
