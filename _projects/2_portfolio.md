@@ -9,19 +9,18 @@ links:
     link: https://github.com/spencerberry/spncr.dev
 image: portfolio.gif
 victories:
-  - Adjusting from rails to the much simpler Jekyll
-  - Custom project collection so I don't have to mess with post dates
+  - Staying as DRY as I can while still supporting the diversity of work I have done
+  - Used a custom project collection so I'm not shoehorning my thoughts into the default post structure
   - Avoided themes to keep myself honest about my current abilities
-  - Trying to stay DRY while still allowing for a few different project features
 todos:
-  - Make more projects!
-  - Make the site faster on slow connections (gifs everywhere!)
+  - Make more projects, especially in JavaScript
+  - Make the site faster for those on slow connections
   - Use Javascript to make things a bit more dynamic
 
 ---
 
 The site you are viewing now.
 
-I needed somewhere to display my projects so far, and wanted something simple but completely under my control.
+I wanted to build a simple, static site to display my projects so far.
 
-[Jekyll](https://jekyllrb.com/) kept me in the Ruby mindset and was quick to get working.
+[Jekyll](https://jekyllrb.com/) kept me in the Ruby mindset and was quick to get working, thanks to GitHub Pages.

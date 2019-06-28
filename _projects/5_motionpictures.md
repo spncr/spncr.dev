@@ -30,12 +30,12 @@ examples:
     image: gelato.gif
     roles: ['Camera', 'Editor']
 victories:
-  - Self-taught in my teens to start promoting myself and friends
+  - Self-taught in my teens to promoting my yoyo tricks and ideas
   - Won an underground video contest with my first stop motion project
-  - Shot two short films on 16mm, with a full crew to delegate to
-  - Scouted and secured challenging locations, including an alleyway in San Francisco's Financial District
+  - Attended film school and directed two short films on 16mm, with a full crew
+  - Overcame countless challenges to achieve directorial vision, such as securing next level locations, collaborating with talented cast and crew, and orchestrating crews of 20+
 todos:
-  - Always sharing trick ideas with the world
+  - Always share trick ideas with the world
   - Create and organize a yoyo dictionary for the tricks I've created over the years
   - Upload and organize the rest of my (slightly embarrassing) earlier work
   - I'd love to re-color the Snout and make a more polished final cut
@@ -43,7 +43,7 @@ todos:
 ---
 I found deep satisfaction in creating my own moving imagery, from my teen years.
 
-It began as a way to share my yoyo tricks with the world, earning my sponsorship.
+It began as a way to share my yoyo tricks with the world, earning a sponsorship from Duncan Toys.
 
 Quickly my interests evolved into more complex ideas, including stop motion and narrative abstraction. My obsession with cinema eventually led me to earn my Bachelor's Degree in Motion Picture Directing with a side focus on writing.
 

@@ -11,8 +11,8 @@ links:
     link: https://github.com/spencerberry/GEMSfall
 image: gemsfall.gif
 victories:
-  - Refining logic into tables to avoid duplicate code and simplify future features (cells, the block, the board)
-  - Writing animations that run smoothly, in code that loops 60 times a second
+  - Structuring to avoid duplicate code and simplify future features (cells,  block, board)
+  - Writing animations that run smoothly at 60 frames per second
   - Finding that addictive, satisfying feel and complementing it with sound and mechanics
 todos:
   - Refactor the background grid so that effects can be passed through it
