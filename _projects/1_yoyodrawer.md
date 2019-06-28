@@ -10,7 +10,7 @@ links:
     link: http://yoyos.spencerberry.com/
   - label: see the code
     link: https://github.com/spencerberry/yoyo_drawer
-image: yoyo_drawer.gif
+image: yoyodrawer.gif
 victories:
   - Planned and built a rails app based on a Yoyo object
   - Grokking and using the :has_many, :belongs_to relationship to model the data appropriately
