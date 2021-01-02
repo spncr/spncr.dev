@@ -1,5 +1,5 @@
 ---
-title: Projects
+title: spncr
 about: include about.md
 ---
 <div class="about section">
@@ -22,5 +22,21 @@ about: include about.md
       </a>
     </li>
   {% endfor %}
+  </ul>
+</div>
+
+<div class="blog">
+  <ul class="posts">
+  {% for post in site.posts limit: 3 %}
+    <li class="tile smooth"
+      {% if post.coverImage %}
+        style="background-color: yellow; background-image: {{site.url}}/assets/img/{{post.coverImage}};"
+      {% else %}
+        style="background-color: forestGreen;"
+      {% endif %}>
+      <a href="{{ post.url }}">
+        {{post.title}}
+      </a>
+    {% endfor %}
   </ul>
 </div>

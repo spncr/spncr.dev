@@ -24,8 +24,8 @@ plugins:
   # jekyll-feed
 
   # jekyll-paginate
-paginate: 5
-paginate_path: "/blog/page:num/"
+paginate: 6
+paginate_path: "/posts/page:num/"
 
 # jekyll-tagging (optional)
 tag_permalink_style: pretty
@@ -35,6 +35,13 @@ tag_page_dir: tag
 collections:
   projects:
     output: true
+    order:
+      - gemsfall.md
+      - baloof.md
+      - toys.md
+      - motionpictures.md
+      - yoyodrawer.md
+      - portfolio.md
 
 defaults:
   -
@@ -52,6 +59,11 @@ defaults:
       path: "assets/img"
     values:
       image: true
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: post
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

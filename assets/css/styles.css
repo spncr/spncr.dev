@@ -27,7 +27,10 @@ a {
   text-decoration: none;
 }
 
-a:hover { color: var(--bright); }
+.tile:hover a,
+a:hover {
+  color: var(--bright);
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Raleway', Sans-Serif;
@@ -35,14 +38,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
-h1 {
-  font-size: 48px;
-  text-shadow: 3px 0 0 var(--bright);
-  position: absolute;
-  bottom: -12px;
-  color: var(--text);
-}
 
+h1 { font-size: 48px; }
 h2 { font-size: 36px; }
 h3 { font-size: 33px; }
 h4 { font-size: 28px; }
@@ -67,8 +64,15 @@ footer {
   font-size: 15px;
 }
 
+.site-title{
+  text-shadow: 3px 0 0 var(--bright);
+  position: absolute;
+  bottom: -12px;
+  color: var(--text);
+}
+
 .section {
-  padding: 20px;
+  padding: 1rem;
   border-top: 2px solid var(--cool);
 }
 
@@ -137,9 +141,7 @@ footer {
   color: var(--deep);
 }
 
-.tile:hover .tag {
-  color: var(--text);
-}
+.tile:hover .tag {color: var(--text);}
 
 .tags { padding:  0 6px; }
 
@@ -183,6 +185,7 @@ footer {
 @media (min-width: 640px) {
   header {
     padding-top: 70px;
+    height: 70px;
   }
 
   h1 {
