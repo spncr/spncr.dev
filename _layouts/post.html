@@ -1,7 +1,16 @@
 ---
 layout: default
 ---
-<img src="{{site.url}}/assets/img/{{page.coverImage}}" />
-{{page.categories}}
+{% if page.coverImage %}
+  <img class="cover-image" src="{{site.url}}/assets/img/{{page.coverImage}}" />
+  <h2 class="section">{{page.title}}</h2>
+{% else if %}
+  <div class="section">
+    <h2>{{page.title}}</h2>
+  </div>
+{% endif %}
 
-{{content}}
+<div class="section">
+  <!-- {{page.categories}} -->
+  {{content}}
+</div>

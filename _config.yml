@@ -24,8 +24,8 @@ plugins:
   # jekyll-feed
 
   # jekyll-paginate
-paginate: 5
-paginate_path: "/blog/page:num/"
+paginate: 6
+paginate_path: "/posts/page:num/"
 
 # jekyll-tagging (optional)
 tag_permalink_style: pretty
@@ -54,6 +54,11 @@ defaults:
       type: "projects"
     values:
       layout: project
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "post"
   -
     scope:
       path: "assets/img"
