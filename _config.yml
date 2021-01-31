@@ -24,8 +24,8 @@ plugins:
   # jekyll-feed
 
   # jekyll-paginate
-paginate: 6
-paginate_path: "/posts/page:num/"
+paginate: 5
+paginate_path: "/blog/page:num/"
 
 # jekyll-tagging (optional)
 tag_permalink_style: pretty
@@ -59,11 +59,6 @@ defaults:
       path: "assets/img"
     values:
       image: true
-  -
-    scope:
-      type: "posts"
-    values:
-      layout: post
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
