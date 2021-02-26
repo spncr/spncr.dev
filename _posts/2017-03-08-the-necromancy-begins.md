@@ -1,10 +1,8 @@
 ---
 title: "The Necromancy Begins"
 date: "2017-03-08"
-categories: 
-  - "corpse"
-  - "game-development"
-tags: 
+category: gamedev
+tags:
   - "analog"
   - "love2d"
   - "lua"

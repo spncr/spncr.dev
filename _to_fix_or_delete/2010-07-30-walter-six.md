@@ -1,9 +1,9 @@
 ---
 title: "Walter Six"
 date: "2010-07-30"
-categories: 
+categories:
   - "yoyos"
-tags: 
+tags:
   - "walter"
 ---
 

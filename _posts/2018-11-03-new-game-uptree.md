@@ -1,9 +1,8 @@
 ---
 title: "New Game: Uptree?"
 date: "2018-11-03"
-categories: 
-  - "game-development"
-tags: 
+category: gamedev
+tags:
   - "godot"
   - "platformer"
 coverImage: "uptree2018nov.gif"

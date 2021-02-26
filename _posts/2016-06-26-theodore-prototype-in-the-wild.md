@@ -1,9 +1,8 @@
 ---
 title: "Theodore prototype in the wild"
 date: "2016-06-26"
-categories: 
-  - "yoyos"
-tags: 
+category: yoyo
+tags:
   - "ben-conde"
   - "brian-cabildo"
   - "mark-mcbride"

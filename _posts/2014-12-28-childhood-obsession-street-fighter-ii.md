@@ -1,9 +1,8 @@
 ---
 title: "Childhood obsession: Street Fighter II"
 date: "2014-12-28"
-categories: 
-  - "writing"
-tags: 
+category: human
+tags:
   - "arcades"
   - "fighting-games"
   - "street-fighter"

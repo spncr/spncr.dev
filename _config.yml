@@ -6,14 +6,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
 title: Spencer Berry
 tagline: Works and progress
 email: spencerwberry@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Spencer Berry's development portfolio. Pico-8, Godot, and Web Developer.
   Working with Python, Ruby, and Java Script.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://spncr.dev" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+url: "https://spncr.dev"
 twitter_username: spencerberry
 github_username:  spencerberry
 
@@ -22,15 +23,15 @@ markdown: kramdown
 # theme: phantom
 plugins:
   # jekyll-feed
-
   # jekyll-paginate
-paginate: 6
-paginate_path: "/posts/page:num/"
+# paginate: 6
+# paginate_path: "/posts/page:num/"
 
 # jekyll-tagging (optional)
 tag_permalink_style: pretty
 tag_page_layout: tag_page
 tag_page_dir: tag
+category_dir: ''
 
 collections:
   projects:
@@ -46,19 +47,29 @@ collections:
 defaults:
   -
     scope:
-      path: ""
+      path: ''
     values:
       layout: default
   -
     scope:
-      type: "projects"
+      path: pages
+    values:
+      layout: page
+  -
+    scope:
+      type: projects
     values:
       layout: project
   -
     scope:
-      type: "posts"
+      type: posts
     values:
-      layout: "post"
+      layout: post
+  -
+    scope:
+      path: categories
+    values:
+      layout: category
   -
     scope:
       path: "assets/img"

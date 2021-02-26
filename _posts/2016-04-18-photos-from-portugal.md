@@ -1,9 +1,8 @@
 ---
 title: "Photos from Portugal"
 date: "2016-04-18"
-categories: 
-  - "writing"
-tags: 
+category: human
+tags:
   - "cabo-da-roca"
   - "clouds"
   - "lisbon"

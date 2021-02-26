@@ -1,9 +1,8 @@
 ---
 title: "Final Walter Photos"
 date: "2013-05-25"
-categories: 
-  - "yoyos"
-tags: 
+category: yoyo
+tags:
   - "walter"
 ---
 

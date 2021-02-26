@@ -1,10 +1,8 @@
 ---
 title: "Alan Adler - AeroPress interview"
 date: "2015-03-31"
-categories: 
-  - "technology"
-  - "writing"
-tags: 
+category: human
+tags:
   - "aerobie"
   - "aeropress"
   - "alan-adler"

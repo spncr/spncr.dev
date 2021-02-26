@@ -1,9 +1,8 @@
 ---
 title: "Is my future self sending me a message?"
 date: "2015-09-12"
-categories: 
-  - "writing"
-tags: 
+category: human
+tags:
   - "choices"
   - "destiny"
   - "procrastination"

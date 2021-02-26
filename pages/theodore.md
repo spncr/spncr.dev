@@ -1,14 +1,14 @@
 ---
 title: "Theodore"
 date: "2016-03-05"
+permalink: theodore
 layout: "page"
 ---
-
 ## Theodore is sold out!
 
 \[gallery ids="1764,1732,1731,1826,1827,1828" type="rectangular" orderby="rand"\]
 
-# Buy a Theodore
+### Buy a Theodore
 
 By purchasing, you acknowledge:
 
@@ -25,7 +25,7 @@ By purchasing, you acknowledge:
 
 They're sold out!
 
-# Theodore Information
+## Theodore Information
 
 Theodore is another retro-modern throw following in Walter's footsteps.
 
@@ -67,8 +67,4 @@ They will be metal plated Theodores (probably ~40) with some (hopefully) specia
 
 **Price**: Expensive. Probably $200+ but won't know for sure until much later.
 
-### Player's Edition Theodore is sold out - Metal Edition coming one day.
-
-Contact me below with questions:
-
-\[contact-form\]\[contact-field label='Name' type='name' required='1'/\]\[contact-field label='Email' type='email' required='1'/\]\[contact-field label='Comment' type='textarea' required='1'/\]\[/contact-form\]
+### Player's Edition Theodore is sold out - Copper Edition is mostly ready.

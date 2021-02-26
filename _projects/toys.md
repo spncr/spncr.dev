@@ -15,7 +15,7 @@ victories:
   - Invited to judge a range of yoyo contest, including <a href="https://www.youtube.com/watch?v=k4TfA7jDskk" target="_blank">Finnish Nationals</a>
   - Sponsored by Duncan Toys for many years
   - Briefly ran my own yoyo website in 2001, using Dreamweaver
-  - 'Some flattering web press: <a href="http://yoyonews.com/2013/09/13/interview-spencer-berry">[Interview]</a> <a href="http://yoyonews.com/2013/04/05/fixed-friday-play-like-a-wild-man-with-spencer-berry">[Play like a wild man]</a><a href="https://www.youtube.com/watch?v=toYcQoWjmBg">[Video Interview] </a>'
+  - 'Some flattering web press: [<a href="http://yoyonews.com/2013/09/13/interview-spencer-berry">Interview</a>][<a href="http://yoyonews.com/2013/04/05/fixed-friday-play-like-a-wild-man-with-spencer-berry">Play like a wild man</a>][<a href="https://www.youtube.com/watch?v=toYcQoWjmBg">Video Interview </a>]'
 
 todos:
   - 'I have some Theodores to plate in copper, with custom cases from <a href="https://artifactbags.com/" target ="_blank">Artifact</a>'

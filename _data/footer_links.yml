@@ -1,16 +1,10 @@
 - name: github
   link: https://github.com/spencerberry
-- name: personal blog
-  link: https://blog.spencerberry.com
-- name: gamedev blog
-  link: https://onomatopoeia.blog
 - name: itch
   link: https://spncr.itch.io/
 - name: vimeo
   link: https://vimeo.com/spencerberry
-- name: twitter
+- name: tweet
   link: https://twitter.com/spencerberry
-- name: linkedin
-  link: https://linkedin.com/in/spencerwberry/
-- name: email
-  link: mailto:spencerwberry@gmail.com
+- name: gram
+  link: https://instagram.com/spencerberry

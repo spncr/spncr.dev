@@ -1,10 +1,8 @@
 ---
 title: "Slime can hop and knockback"
 date: "2018-11-20"
-categories: 
-  - "game-development"
-  - "slime-god"
-tags: 
+category: gamedev
+tags:
   - "gamedev"
   - "god"
   - "lua"

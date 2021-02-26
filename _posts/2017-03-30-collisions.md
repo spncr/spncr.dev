@@ -1,10 +1,8 @@
 ---
 title: "Collisions!"
 date: "2017-03-30"
-categories: 
-  - "corpse"
-  - "game-development"
-tags: 
+category: gamedev
+tags:
   - "gamedev"
   - "love2d"
   - "lua"

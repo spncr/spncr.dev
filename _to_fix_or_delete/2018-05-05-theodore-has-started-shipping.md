@@ -1,10 +1,8 @@
 ---
 title: "Theodore has started shipping!"
 date: "2018-05-05"
-categories: 
-  - "toys"
-  - "yoyos"
-tags: 
+category: yoyo
+tags:
   - "theodore"
   - "yoyo"
 ---

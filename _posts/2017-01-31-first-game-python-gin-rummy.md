@@ -1,9 +1,8 @@
 ---
 title: "First Game: Python Gin Rummy"
 date: "2017-01-31"
-categories: 
-  - "game-development"
-tags: 
+category: gamedev
+tags:
   - "cards"
   - "gin"
   - "python"

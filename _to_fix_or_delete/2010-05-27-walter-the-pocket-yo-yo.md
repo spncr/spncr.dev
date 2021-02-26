@@ -1,10 +1,7 @@
 ---
 title: "Walter the pocket yo-yo"
 date: "2010-05-27"
-categories: 
-  - "yoyos"
-tags: 
-  - "walter"
+category: yoyo
 ---
 
 _Walter is a curmudgeon.  An old man with a mustache who can’t help but taint everything with his weathered opinions.  He is the type of friend who you ask to proofread your homework, because you know he will hold back nothing in his critique.  His retort will lack modesty; he will condemn your rambling prose, because he believes you have potential beyond what you have failed to express.  He will make you aware of your own nclumsiness, and it will sting.  You may wonder if you could ever meet his expectations, and someday you just might, if you practice.  So please, don’t be afraid of Walter because he is honest and frank, he has your best intentions in mind._

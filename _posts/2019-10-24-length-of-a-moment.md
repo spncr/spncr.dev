@@ -1,13 +1,7 @@
 ---
 title: "Length of a moment"
 date: "2019-10-24"
-categories:
-  - "writing"
-tags:
-  - "habits"
-  - "memory"
-  - "thought-exercise"
-  - "time"
+category: human
 coverImage: "idgie_2019-10-19.jpg"
 ---
 

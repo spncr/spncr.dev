@@ -1,10 +1,7 @@
 ---
 title: "Thoughts from the age of the boutique yo-yo."
 date: "2009-11-11"
-categories: 
-  - "yoyos"
-tags: 
-  - "walter"
+category: yoyo
 ---
 
 _My name is Spencer Berry, and this is the first of, hopefully, many musings.  Chris and I met in an elevator at the world contest many years ago, and since have carried a slow but enthusiastic conversation via email and telephone.  I have been playing yo-yo since 2000, participating in few competitions but present in a slew of video projects.  I was an original Duncan Crew Member from 2001-08, and now study filmmaking in San Francisco, CA.  I am not a businessman or a profiteer, instead I play yo-yo, quite selfishly, for myself and my own creative pursuits.  The yo-yo community, to me, should put people before the dollar and friendships before elitism.  That being said, I am quite opinionated and am through writing about myself._

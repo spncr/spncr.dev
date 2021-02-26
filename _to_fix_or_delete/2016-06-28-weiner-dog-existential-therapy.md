@@ -1,10 +1,8 @@
 ---
 title: "Weiner Dog: existential therapy"
 date: "2016-06-28"
-categories: 
-  - "cinema"
-  - "documentation"
-tags: 
+category: cinema
+tags:
   - "films"
   - "happiness"
   - "human-struggle"

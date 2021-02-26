@@ -1,9 +1,8 @@
 ---
 title: "Materialistic excuses and the daily joy of something lovely"
 date: "2015-05-13"
-categories: 
-  - "documentation"
-tags: 
+category: human
+tags:
   - "bifl"
   - "buy-it-for-life"
   - "coffee-machine"

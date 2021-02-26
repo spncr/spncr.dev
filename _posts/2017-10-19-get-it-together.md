@@ -1,9 +1,8 @@
 ---
 title: "Get it together"
 date: "2017-10-19"
-categories: 
-  - "game-development"
-tags: 
+category: gamedev
+tags:
   - "collisions"
   - "love2d"
   - "lua"

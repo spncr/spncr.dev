@@ -1,9 +1,10 @@
 ---
 title: "Walter"
 date: "2013-04-14"
+permalink: walter
 layout: "page"
 ---
-
+{{page.name}}
 ## Walter is sold out - thanks for all the support
 
 [Related posts](http://spencerberry.com/tag/walter)

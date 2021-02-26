@@ -2,9 +2,7 @@
 layout: post
 title: "Art is Amazing"
 date: "2018-12-10"
-categories:
-  - "game-development"
-  - "uptree"
+category: gamedev
 tags:
   - "godot"
   - "platformer"

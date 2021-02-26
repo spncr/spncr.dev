@@ -1,12 +1,19 @@
 ---
 title: "Debt in Knowledge"
 date: "2010-10-31"
-categories: 
-  - "yoyos"
+category: yoyo
 ---
 
-\[vimeo 16161252 w=640 h=472\]
+<iframe src="https://player.vimeo.com/video/16161252" width="640" height="472" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+Debt in Knowledge (Radiohead Cut) from [Sector Y](http://www.sector-y.com)
 
-[Debt in Knowledge (Radiohead Cut)](/16161252) from [Sector Y](/yoyoing)
+I made this video in 2007.
 
-Same [video](http://www.youtube.com/watch?v=_LsfZlfaImA "Debt in Knowledge (Original Sound Effects)") as released in 2007, hence the publish date.
+I edited it to radiohead, but I was afraid it would be taken down on music copyright claims.
+
+To avoid that, I made my own soundtrack.
+
+I think the radiohead version is better.
+
+<h3>Original Version</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_LsfZlfaImA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

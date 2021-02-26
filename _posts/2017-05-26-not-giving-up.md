@@ -1,9 +1,8 @@
 ---
 title: "Not giving up!"
 date: "2017-05-26"
-categories: 
-  - "game-development"
-tags: 
+category: gamedev
+tags:
   - "blocks"
   - "love2d"
   - "lua"

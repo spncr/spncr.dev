@@ -1,9 +1,8 @@
 ---
 title: "The curse of cool"
 date: "2015-04-18"
-categories: 
-  - "writing"
-tags: 
+category: human
+tags:
   - "cool"
   - "enthusiasts"
   - "hip"

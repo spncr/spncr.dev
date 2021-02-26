@@ -1,10 +1,8 @@
 ---
 title: "Pico-de-hero."
 date: "2018-01-31"
-categories: 
-  - "baloof"
-  - "game-development"
-tags: 
+category: gamedev
+tags:
   - "casual"
   - "lua"
   - "pico-8"

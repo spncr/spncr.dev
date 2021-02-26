@@ -1,9 +1,8 @@
 ---
 title: "Moderation: Ghosts of a Vegetarian"
 date: "2015-05-15"
-categories: 
-  - "documentation"
-tags: 
+category: human
+tags:
   - "animal-rights"
   - "diet"
   - "environment"

@@ -1,7 +1,6 @@
 ---
-layout: default
 title: About
-permalink: /about/
+permalink: about
 ---
 
 I am a nerd living in Portland, Oregon, USA.

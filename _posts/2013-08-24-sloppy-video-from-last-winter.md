@@ -1,9 +1,8 @@
 ---
 title: "Sloppy Video from last winter"
 date: "2013-08-24"
-categories: 
-  - "yoyos"
-tags: 
+category: yoyo
+tags:
   - "walter"
 ---
 

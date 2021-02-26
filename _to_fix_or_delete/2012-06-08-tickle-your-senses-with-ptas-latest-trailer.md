@@ -1,8 +1,7 @@
 ---
 title: "Tickle your senses with PTA's latest trailer"
 date: "2012-06-08"
-categories: 
-  - "cinema"
+category: cinema
 ---
 
 `[youtube http://www.youtube.com/watch?v=9oZDKFoCqAw]`

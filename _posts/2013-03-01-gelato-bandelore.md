@@ -1,15 +1,14 @@
 ---
 title: "Gelato Bandelore"
 date: "2013-03-01"
-categories: 
-  - "cinema"
-  - "yoyos"
-tags: 
+category: yoyo
+tags:
   - "anti-yo"
   - "video"
 ---
 
-\[vimeo 46157163 w=500 h=331\]
+<iframe src="https://player.vimeo.com/video/46157163" width="640" height="424" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/46157163">Gelato Bandalore</a> from <a href="https://vimeo.com/spencerberry">Spencer Berry</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 [Gelato Bandelore](http://vimeo.com/46157163) from [Spencer Berry](http://vimeo.com/user705897) on [Vimeo](http://vimeo.com).
 

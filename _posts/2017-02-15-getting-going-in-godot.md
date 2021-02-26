@@ -1,9 +1,8 @@
 ---
 title: "Getting going in godot"
 date: "2017-02-15"
-categories: 
-  - "game-development"
-tags: 
+category: gamedev
+tags:
   - "godot"
   - "noob"
 coverImage: "screen-shot-2017-02-23-at-4-27-47-pm.png"

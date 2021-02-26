@@ -1,9 +1,8 @@
 ---
 title: "Slow down and evolve"
 date: "2016-04-23"
-categories: 
-  - "documentation"
-tags: 
+category: human
+tags:
   - "choices"
   - "deliberation"
   - "discover"

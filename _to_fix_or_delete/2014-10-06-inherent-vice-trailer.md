@@ -1,9 +1,8 @@
 ---
 title: "Inherent Vice Trailer"
 date: "2014-10-06"
-categories: 
-  - "cinema"
-tags: 
+category: cinema
+tags:
   - "inherent-vice"
   - "movie-trailer"
   - "paul-thomas-anderson"
