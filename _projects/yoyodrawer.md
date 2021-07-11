@@ -7,7 +7,7 @@ tools:
   - aws
 links:
   - label: check it out live
-    link: http://yoyos.spencerberry.com/
+    link: http://yoyos.spncr.dev/
   - label: see the code
     link: https://github.com/spencerberry/yoyo_drawer
 image: yoyodrawer.gif
