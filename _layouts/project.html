@@ -1,82 +1,73 @@
 ---
 layout: default
 ---
-<div class="project-description section">
-
-<img src="../assets/img/{{page.image}}">
-<h2>{{page.title}}</h2>
-<div class="tags">
-{% for tool in page.tools %}
-  <span class="tag">{{tool}}</span>
-{% endfor %}
-</div>
-  {{content}}
-</div>
-
-<div class="links section bright" >
-  {% for link in page.links %}
-    <a href="{{link.link}}" class="link smooth">{{link.label}}</a>
+<section>
+  <img class="contain" src="../assets/img/{{page.image}}"/>
+  <h2 class="contain">{{page.title}}</h2>
+  <div class="contain meta">
+  {% for tool in page.tools %}
+    <span class="tag">{{tool}}</span>
   {% endfor %}
-</div>
+  </div>
+  <main class="contain text">
+    {{content}}
+  </main>
+</section>
 
-<div class="columns section">
-  <div>
+<section class="bright">
+  <div class="contain">
+    {% for link in page.links %}
+      <a href="{{link.link}}" class="link smooth">{{link.label}}</a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="columns">
+  <div class="contain text">
     <h3>Victories</h3>
-    <ul>
+    <ul class="bullets">
     {% for victory in page.victories %}
       <li>{{ victory }}</li>
     {% endfor %}
     </ul>
   </div>
 
-  <div>
+  <div class="contain">
     <h3>Next Steps</h3>
-    <ul>
+    <ul class="bullets">
     {% for todo in page.todos %}
-      <li>{{ todo | markdownify}}</li>
+      <li>{{ todo }}</li>
     {% endfor %}
     </ul>
   </div>
-
-</div>
-
+</section>
 {% if page.examples %}
-  <div class="examples section bright">
-    <h4>More to see</h4>
-    <ul class="tiles">
-    {% for example in page.examples %}
-        <li class="example tile smooth">
-          <a href="{{ example.link }}" >
-            <figure>
-              <img class="example-image"
-            src="{{site.url}}/assets/img/{{ example.image }}" />
-            {% if example.nsfw %}<figcaption class="nsfw smooth">⚠️
-              {% for reason in example.nsfw %}
-                {{reason}} {% unless reason == example.nsfw.last %}&{% endunless %}
-              {% endfor %}
-            </figcaption>
-            {% endif %}
-            </figure>
+  <section>
+      <h3 class="contain">More to see</h3>
+      <ul class="contain tiles">
+      {% for example in page.examples %}
+          <li class="tile smooth">
+            <a href="{{ example.link }}" target="_blank">
+              <figure>
+                <img class="example-image"
+              src="{{site.url}}/assets/img/{{ example.image }}" />
+              {% if example.nsfw %}<figcaption class="nsfw smooth">⚠️
+                {% for reason in example.nsfw %}
+                  {{reason}} {% unless reason == example.nsfw.last %}&{% endunless %}
+                {% endfor %}
+              </figcaption>
+              {% endif %}
+              </figure>
 
-            <h5 class="title smooth">{{example.label}}</h5>
-            <div class="tags">
-              {% for role in example.roles %}
-              <span class="tag">{{role}}</span>
-              {% endfor %}
-            </div>
-          </a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  </div>
+              <h4 class="title smooth">{{example.label}}</h4>
+              <div class="meta">
+                {% for role in example.roles %}
+                <span class="tag">{{role}}</span>
+                {% endfor %}
+              </div>
+            </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
 {% endif %}
-
-
-
-    <!-- <a href="{{link.link}}"
-      class="project-link
-      {% if link.nsfw %} nsfw{% endif %}
-      {% if link.image %} image" style="background-image:url('{{site.url}}/assets/img/{{link.image}}');"{% endif %}">
-      <span class="project-link-label">{{link.label}}</span>
-    </a> -->

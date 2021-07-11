@@ -1,0 +1,28 @@
+---
+permalink: archive
+title: all posts
+---
+<h2 class='overlap-above'>The Archive</h2>
+<pre>
+  this is a lazy import of some dated content from some old WordPress sites
+    spencerberry.com was an old personal blog that I rarely used
+      onomotopoea.blog was my gamedev blog
+</pre>
+  an <a href="/walter">old page</a> about Walter, a yoyo I made in 2013
+</p>
+<p>
+  a <a  href="/theodore">less old page</a> about Theodore, a yoyo I made in 2019
+</p>
+
+{% assign categories = site.categories | sort | order: 'order' %}
+{% for category in categories %}
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <h3>
+      {{ category_name }}
+    </h3>
+    {% for post in site.categories[category_name] %}
+      <article>
+        <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a><small> {{post.date | date: "%Y %B %d"}}</small>
+      </article>
+  {% endfor %}
+{% endfor %}
