@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<section>
+  {% if page.coverImage %}
+    <img class="cover-image" src="{{site.url}}/assets/img/{{page.coverImage}}" />
+  {% endif %}
+  <h2 class="contain post-title overlap-above">{{page.title}}</h2>
+  <div class="contain meta">
+    {{ page.date | date: "%Y %B %d"}}
+    {% for category in page.categories %}
+      <div class="tag">{{category}}</div>
+    {% endfor %}
+  </div>
+</section>
+
+<section>
+  <main class="contain text">
+    {{content}}
+  </main>
+</section>

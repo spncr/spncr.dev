@@ -1,7 +1,9 @@
-<nav>
-  {% for item in site.data.footer_links %}
-    <a href="{{ item.link }}" class="smooth">
-      {{ item.name }}</a>
-    {% unless item == site.data.footer_links.last %} - {% endunless %}
-  {% endfor %}
-</nav>
+<footer>
+  <nav class="contain">
+    {% for item in site.data.footer_links %}
+      <a href="{{ item.link }}" class="smooth">
+        {{ item.name }}</a>
+      {% unless item == site.data.footer_links.last %} - {% endunless %}
+    {% endfor %}
+  </nav>
+</footer>

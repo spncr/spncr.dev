@@ -1,14 +1,26 @@
 ---
-title: Projects
-about: include about.md
+title: spncr
+post-count: 3
 ---
-<div class="about section">
-  {% include about.html %}
-</div>
+<section class="about overlap-above">
+  <pre class="contain text">
+  I am human
+    always changing
+      striving to understand
+        imagine and create
+          I appreciate when thoughts dig
+            through dark depths
+          treaded murk
+        tangled, worn flat
+      muddy sullen itchy swollen
+    to emerge fresh
+  and simple</pre>
+  <!--/preouch-->
+</section>
 
-<div class="projects section bright">
-  <h2>Projects</h2>
-  <ul class="tiles">
+<section class="bright">
+  <h2>projects</h2>
+  <ul class="tiles contain">
   {% for project in site.projects %}
     <li class="project tile smooth">
       <a href="{{ project.url }}">
@@ -23,4 +35,15 @@ about: include about.md
     </li>
   {% endfor %}
   </ul>
-</div>
+</section>
+
+<section>
+  <h2>archive</h2>
+  <p class="contain">
+    <a class="link smooth" href="{{site.url}}/archive">
+      old posts from old sites
+    </a>
+  </p>
+</section>
+
+<!-- {% include contact.html%} -->

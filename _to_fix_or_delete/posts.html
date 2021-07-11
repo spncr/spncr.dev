@@ -1,0 +1,20 @@
+<ul class="tiles contain">
+{% for post in site.posts limit:{{page.post-count}} %}
+  <li class="smooth tile
+    {% if post.coverImage %}
+      with-cover">
+      <a href="{{ post.url }}">
+        <img src="{{site.url}}/assets/img/{{post.coverImage}}" />
+    {% else if %}
+      ">
+      <a href="{{ post.url }}">
+    {% endif %}
+        <h3 class="title"> {{post.title}} </h3>
+        <div class="tags date">
+          <span class="tag">{{ post.date | date: "%Y %B %d"}} </span>
+        </div>
+        <!--div class="excerpt"> {{post.excerpt}}</div-->
+      </a>
+  </li>
+  {% endfor %}
+</ul>
