@@ -1,5 +1,5 @@
 ---
 order: 2
 permalink: gamedev
-title: gamedev
+title: game development
 ---

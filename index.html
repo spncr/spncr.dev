@@ -4,18 +4,18 @@ post-count: 3
 ---
 <section class="about overlap-above">
   <pre class="contain text">
-I am human
-  always changing
-    striving to understand
-      imagine and create
-        I appreciate when thoughts dig
-          through dark depths
-        treaded murk
-      tangled, worn flat
-    muddy sullen itchy swollen
-  to emerge fresh
-and simple
-  </pre>
+  I am human
+    always changing
+      striving to understand
+        imagine and create
+          I appreciate when thoughts dig
+            through dark depths
+          treaded murk
+        tangled, worn flat
+      muddy sullen itchy swollen
+    to emerge fresh
+  and simple</pre>
+  <!--/preouch-->
 </section>
 
 <section class="bright">
@@ -38,14 +38,12 @@ and simple
 </section>
 
 <section>
-  <h2>posts</h2>
-  <div class="tags contain" >
-    <a class="tag" href="{{site.url}}/posts">all posts</a>
-  {% for category in site.categories %}
-    {% capture category_name%}{{category | first}}{% endcapture %}
-    <a class="tag" href="{{site.url}}/{{category_name}}">{{category_name}} posts </a>
-  {% endfor %}
-  </div>
+  <h2>archive</h2>
+  <p class="contain">
+    <a class="link smooth" href="{{site.url}}/archive">
+      old posts from old sites
+    </a>
+  </p>
 </section>
 
-{% include contact.html%}
+<!-- {% include contact.html%} -->

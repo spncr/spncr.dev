@@ -5,9 +5,9 @@ tools:
   - trick inventor
 links:
   - label: see theodore
-    link: https://blog.spencerberry.com/theodore/
+    link: /theodore/
   - label: check out walter
-    link: https://blog.spencerberry.com/walter/
+    link: /walter/
 image: toys.gif
 victories:
   - Researched and secured my own production pipeline, including engineering, manufacturing and finishing
@@ -25,8 +25,8 @@ todos:
 ---
 I was a professional yoyo player from 2001-2008.
 
-I have invented at least 50 tricks.
+I have invented (discovered?) some tricks.
 
-I conceived, designed and produced two unique yoyo designs, Walter and Theodore. These are made domestically, through people who can meet my standards of quality, design, and communication.
+I conceived, designed and produced two unique yoyo designs, Walter and Theodore.
 
-I love skill toys. I enjoy cubing, juggling, diabolo, puzzles and tactile toys of all sorts.
+I love skill toys. I enjoy cubing, juggling, diabolo, knitting, puzzles and tactile toys of all sorts.

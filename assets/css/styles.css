@@ -48,6 +48,9 @@ h4 { font-size: 28px; }
 h5 { font-size: 24px; }
 h6 { font-size: 22px; }
 
+p {
+  margin: 1rem 0;
+}
 img {
   max-width: 100%;
 }
@@ -61,6 +64,11 @@ ul {
 ol {
   list-style-position: inside;
 }
+header,
+section,
+footer {
+  border-bottom: 2px solid var(--cool);
+}
 
 header {
   background: url('../img/SMB2019.svg') bottom center/contain repeat-x;
@@ -69,10 +77,8 @@ header {
   position: relative;
 }
 
-header,
-section,
-footer {
-  border-bottom: 2px solid var(--cool);
+section {
+  padding: 1rem 0;
 }
 
 footer {
