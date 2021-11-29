@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-size: 1em;
+  font-size: 16px;
 }
 
 :root {
@@ -87,6 +87,14 @@ footer {
   padding: .4rem 0;
 }
 
+svg {
+  fill: currentColor;
+}
+
+svg.icon {
+  width: 16px;
+}
+
 .site-title {
   text-shadow: 3px 0 0 var(--bright);
   position: absolute;
@@ -117,6 +125,18 @@ footer {
 }
 .bright { background-color: var(--deep); }
 
+.hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap; /* 1 */
+}
+
 .tag {
   background-color: var(--cool);
   border-radius: .1em;
@@ -129,7 +149,7 @@ footer {
 }
 
 .link {
-  font-size: .8rem;
+  font-size: 1.2rem;
   background-color: var(--dark);
   display: inline-block;
   padding: .5em 1em;
@@ -152,6 +172,11 @@ footer {
 
 .bullets {
   list-style: inside circle;
+}
+
+.thumbnail {
+  max-width: 256px;
+  display: block;
 }
 
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||Delete below this line*/
