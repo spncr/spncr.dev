@@ -6,37 +6,56 @@ layout: "page"
 snipcart: true
 ---
 
-# Copper Theodore
-*Updated: September 2021*
+# copper theodore
+*Updated Dec 21 2021*
+
+{% include gallery.html folder="/assets/img/galleries/copper_theo" %}
+```
+image descriptions, left to right:
+1. Copper Theodore, ready to sell
+2. A fresh Copper Theodore next to my aggressively loved Theodore
+3. Loved, Raw, and Ready: the plating job is imperfect
+4. Angled to show the remaining splatter marks
+5. Nine splatter examples, highly inconsistent
+```
 
 A copper yoyo isn't very practical. It smells and it is sensitive and it is constantly in a state of flux.
 
 If you play with it constantly, your touch will buff the surface, leaving shiny rose traces of your affection.
+
 If left alone, it will darken.
+
 Moisture, acid, and fingers may leave marks.
+
 Polish it for a special occasion, but the history will remain, a veil beyond the shine.
 
-I had this batch blasted, then plated in copper. This is meant to be utilitarian or an underplate, not cosmetic. The process left some permanent splatter marks on every yoyo.
+I had this batch blasted, then plated in copper.
 
-I hesitated to release these at all. They are not perfect. They are not competition grade spin machines. They will not outperform in any way.
+The plating is meant to be an underplate, not cosmetic.
 
-They might get better with age, if you enjoy an ephemeral patina. They will become more predictable with practice, but they will not outperform.
+The process left some permanent splatter marks on every yoyo.
 
-These patina in layers, to reflect the life it has had. The shoddy plating job is only their birth story, what happens next?
+I hesitated to release these at all.
+
+They are not perfect.
+
+They are not competition grade spin machines.
+
+They will not outperform in any way.
+
+They might get better with age, if you enjoy an ephemeral patina.
+
+They will become more predictable with practice, but they will not outperform.
+
+These patina in layers, to reflect the life it has had.
+
+The shoddy plating job is only their birth story, what happens next?
 
 I decided to release the Copper Theodore because I love them and I want to share, if you are up for the challenge.
 
 They're grumpy, heavy, open to the challenge of you.
 
-{% include gallery.html folder="/assets/img/galleries/copper_theo" %}
-
-1. A fresh Copper Theodore next to my aggressively loved Theodore
-2. Copper Theodore, ready to sell
-3. Loved, Raw, and Ready: the plating job is imperfect
-4. Angled to show the remaining splatter marks
-5. Nine splatter examples, highly inconsistent
-
-## Disclaimers
+## disclaimers
 
 **Every single yoyo has some form of splatter marks** from the copper plating process. This plating is considered "non-cosmetic".
 
@@ -70,35 +89,68 @@ I'm just one person slowly making yoyos and charging for the trouble. There won'
 6. You won't hurt my feelings if you don't buy one, but you might hurt my feelings if you do buy one and hate it.
 7. I buy **really** shitty bearings, they have rubber shields and they're greasy and they take for damn ever to wear in and because of the plating they're actually pretty hard to remove the first time.
 
-## Buy
-Shipping December 2021
+## buy copper theo $160
+Please buy only one, quantities are limited. Shipping 2022.
 ![Face of a clean Copper Theodore yoyo](/assets/img/copper_theo_thumb.jpeg){: .thumbnail}
-<a class="link snipcart-add-item"
+<a
+  class="link"
   title="Buy a Copper Theodore yoyo"
-  data-item-id="clean-copper-theo"
-  data-item-price="160"
-  data-item-max-quantity="1"
-  data-item-url="/theodore"
-  data-item-description="Clean Copper Theodore Yoyo"
-  data-item-image="/assets/img/copper_theo_thumb.jpeg"
-  data-item-name="Clean Copper Theodore">
+  href="https://checkout.square.site/merchant/9WN8JPKBEQRSQ/checkout/PNT2LLRDMRURZA6ZYQD3VHED">
   Buy One
 </a>
 
-## Dirty Editions
+## dirty editions
 I took a few Copper Theodores and bathed them in my garage, which damages them but in a kinda pretty way.
 
-They come out rough and vibey and cutting strings. I work them again with steel wool, trying to keep as much of the colorful patina as I can, but running my (gloved) finger around the string zone to make sure it is smooth. Then I do a light brush in the cups to break off any leftover salt or crust. Then I add the bearing and spin test them.
+They come out rough and vibey and cutting strings.
 
-They play much worse than the clean ones, but they also take a lot more work, so I am still charging more.
+I work the string gap back to smooth with steel wool.
+
+I brush any loose crust from the cups, but leave them pretty gross.
+
+Then I add the bearing and spin test them.
+
+They play much worse than the clean ones, but they also take a lot more work, so I am charging more.
 
 They're one of a kind, what you see if what you get.
 
 Breaking these in is extra tough, they're literally crusty and need some hard work.
 
-### Questions?
+**if the buy button says sold out, then someone already bought it.**
+**if they're all sold out and you want one, [let me know](#Questions?) and I'll see if I can make more**
+
+### spit theo $220
+![Dirty Copper Theodore, patina'd with turquoise colored highlights, lovingly named spit theo, no actual spit used](/assets/img/theo/theo_spit.jpg)
+<a
+  class="link"
+  title="buy the one and only spit theo"
+  href="https://square.link/u/oXVktx7r">
+  buy spit theo
+</a>
+
+### glue theo $240
+![Dirty Copper Theodore, glue masked then patina'd with turquoise colored highlights, lovingly named spit theo, no actual spit used](/assets/img/theo/theo_glue.jpg)
+this one is really gross, i tried to do an elmer's glue mask but clearly don't know what I am doing and it made a big mess and took forever to clean up but it is what it is and definitely won't be doing this again.
+<a
+  class="link"
+  title="buy the one and only glue theo"
+  href="https://square.link/u/xeDdN96c">
+  buy glue theo
+</a>
+
+### gulp theo $220
+![Dirty Copper Theodore, patina'd with turquoise colored highlights, lovingly named spit theo, no actual spit used](/assets/img/theo/theo_gulp.jpg)
+<a
+  class="link"
+  title="buy the one and only spit theo"
+  href="https://square.link/u/pXPTJW41">
+  buy gulp theo
+</a>
+
+
+### questions?
 You can [email me](&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&colon;&#x73;&#x70;&#x6e;&#x63;&#x72;&commat;&#x77;&#x65;&#x69;&#x72;&#x64;&period;&#x76;&#x69;&#x73;&#x69;&#x6f;&#x6e;&quest;&#x73;&#x75;&#x62;&#x6a;&#x65;&#x63;&#x74;&equals;&#x74;&#x68;&#x65;&#x6f;&#x64;&#x6f;&#x72;&#x65;&percnt;&#x32;&#x30;&#x79;&#x6f;&#x79;&#x6f;). I'm chill.
 
-#### Previous Release
-I've archived the previous release:
+#### player's edition
+I've archived the player's edition, which is no longer available:
 [Player's Edition Theodore](/2018-theodore)
