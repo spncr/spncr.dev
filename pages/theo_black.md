@@ -1,7 +1,7 @@
 ---
 title: "Theodore"
 date: "2016-03-05"
-permalink: theodore
+permalink: 2018-theodore
 layout: "page"
 ---
 ## Theodore is sold out!
