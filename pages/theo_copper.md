@@ -3,7 +3,6 @@ title: "Copper Theodore"
 date: "2021-07-21"
 permalink: theodore
 layout: "page"
-snipcart: true
 ---
 
 # copper theodore
