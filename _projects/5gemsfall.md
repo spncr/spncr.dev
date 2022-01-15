@@ -1,5 +1,6 @@
 ---
 title: GEMSfall
+permalink: gemsfall
 tools:
   - pico-8
   - lua
@@ -8,7 +9,7 @@ links:
   - label: play in the browser
     link: https://spncr.itch.io/gemsfall
   - label: see the code
-    link: https://github.com/spencerberry/GEMSfall
+    link: https://github.com/spncr/GEMSfall
 image: gemsfall.gif
 victories:
   - Structuring to avoid duplicate code and simplify future features (cells,  block, board)

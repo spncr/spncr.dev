@@ -1,12 +1,13 @@
 ---
 title: Static Portfolio
+permalink: portfolio
 tools:
   - jekyll
   - ruby
   - github pages
 links:
   - label: see the code
-    link: https://github.com/spencerberry/spncr.dev
+    link: https://github.com/spncr/spncr.dev
 image: portfolio.gif
 victories:
   - Staying as DRY as I can while still supporting the diversity of work I have done

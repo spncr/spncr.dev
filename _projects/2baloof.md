@@ -1,5 +1,6 @@
 ---
 title: Baloof
+permalink: baloof
 tools:
   - pico-8
   - lua
@@ -8,7 +9,7 @@ links:
   - label: play in the browser
     link: https://spncr.itch.io/baloof
   - label: see the code
-    link: https://github.com/spencerberry/baloof
+    link: https://github.com/spncr/baloof
 image: baloof.gif
 victories:
   - Parallax layers that can easily be tweaked

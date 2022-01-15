@@ -6,7 +6,7 @@ layout: "page"
 ---
 
 # copper theodore
-*Updated Jan 03 2022*
+*Updated Jan 15 2022*
 
 {% include gallery.html folder="/assets/img/galleries/copper_theo" %}
 ```
@@ -88,35 +88,36 @@ I'm just one person slowly making yoyos and charging for the trouble. There won'
 6. You won't hurt my feelings if you don't buy one, but you might hurt my feelings if you do buy one and hate it.
 7. I buy **really** shitty bearings, they have rubber shields and they're greasy and they take for damn ever to wear in and because of the plating they're actually pretty hard to remove the first time.
 
-## buy copper theo $160
-Please buy only one, quantities are limited. Shipping February 2022.
+## Check back later for copper theo $160
+Shipping February 2022.
+
+These sold out on Jan 14th, but I will have another dozen or two in a few months.
 ![Face of a clean Copper Theodore yoyo](/assets/img/copper_theo_thumb.jpeg){: .thumbnail}
 <a
   class="link"
-  title="Buy a Copper Theodore yoyo"
-  href="https://checkout.square.site/merchant/9WN8JPKBEQRSQ/checkout/PNT2LLRDMRURZA6ZYQD3VHED">
+  title="Sold out for now"
+  href="#">
   Buy One
 </a>
 
 ## dirty editions
-I took a few Copper Theodores and bathed them in my garage, which damages them but in a kinda pretty way.
+I took a few Copper Theodores and bathed them in my garage, which gives them a pretty crust of color pops.
 
-They come out rough and vibey and cutting strings.
+Fresh out of the bath, they are a bit rough to the touch.
 
 I work the string gap back to smooth with steel wool.
 
-I brush any loose crust from the cups, but leave them pretty gross.
+I brush any loose crust from the cups, but leave them pretty gross for aesthetics.
 
 Then I add the bearing and spin test them.
 
-They play much worse than the clean ones, but they also take a lot more work, so I am charging more.
+They need more break in time than the clean ones, and they also take a lot more work from me to get playable again, so I am charging more.
 
 They're one of a kind, what you see if what you get.
 
-Breaking these in is extra tough, they're literally crusty and need some hard work.
+Breaking these in is tough, they need some hard work, but the payoff is worthwhile, in my biased opinion.
 
 **if the buy button says sold out, then someone already bought it.**
-**if they're all sold out and you want one, [let me know](#Questions?) and I'll see if I can make more**
 
 ### spit theo $220
 ![Dirty Copper Theodore, patina'd with turquoise colored highlights, lovingly named spit theo, no actual spit used](/assets/img/theo/theo_spit.jpg)

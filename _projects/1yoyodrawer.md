@@ -1,5 +1,6 @@
 ---
 title: Yoyo Drawer
+permalink: yoyos
 tools:
   - rails
   - ruby
@@ -7,9 +8,9 @@ tools:
   - aws
 links:
   - label: check it out live
-    link: http://yoyos.spncr.dev/
+    link: https://yoyos-spncr.herokuapp.com
   - label: see the code
-    link: https://github.com/spencerberry/yoyo_drawer
+    link: https://github.com/spncr/yoyo_drawer
 image: yoyodrawer.gif
 victories:
   - Planned and built a rails app based on a Yoyo object
