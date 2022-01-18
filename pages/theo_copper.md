@@ -93,12 +93,12 @@ Shipping February 2022.
 
 A few left, but if they sell out I will have another dozen or two in a few months.
 ![Face of a clean Copper Theodore yoyo](/assets/img/copper_theo_thumb.jpeg){: .thumbnail}
-<!--a
+<a
   class="link"
   title="Buy one"
   href="https://checkout.square.site/merchant/9WN8JPKBEQRSQ/checkout/PNT2LLRDMRURZA6ZYQD3VHED">
   Buy One
-</a-->
+</a>
 
 ## dirty editions
 I took a few Copper Theodores and bathed them in my garage, which gives them a pretty crust of color pops.
