@@ -6,7 +6,7 @@ layout: "page"
 ---
 
 # copper theodore
-*Updated Jan 17 2022*
+*Updated 2022 Feb 6th*
 
 {% include gallery.html folder="/assets/img/galleries/copper_theo" %}
 ```
@@ -89,9 +89,9 @@ I'm just one person slowly making yoyos and charging for the trouble. There won'
 7. I buy **really** shitty bearings, they have rubber shields and they're greasy and they take for damn ever to wear in and because of the plating they're actually pretty hard to remove the first time.
 
 ## Copper theo $160
-Shipping February 2022.
+Shipping March 2022.
 
-A few left, but if they sell out I will have another dozen or two in a few months.
+A few left, but if they sell out I will have another small batch this summer.
 ![Face of a clean Copper Theodore yoyo](/assets/img/copper_theo_thumb.jpeg){: .thumbnail}
 <a
   class="link"

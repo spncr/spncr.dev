@@ -25,8 +25,8 @@ todos:
 
 This was my first complete pico-8 game, a sort of vertical infinite runner.
 
-I've always loved parallax and thought it was a perfect way to elevate an otherwise simplistic design. The combination of lofi with smooth and reactive animation can be surprisingly satisfying.
+I've always loved parallax and thought it was a perfect way to elevate an otherwise simplistic set of sprites. The combination of lofi with smooth and reactive animation can be surprisingly satisfying.
 
-Try to fly as high as you can while dodging the ravens.
+Try to fly as high as you can while dodging the ravens. Can you get high enough to see the colors change?
 
 [PICO-8](https://www.lexaloffle.com/pico-8.php "PICO-8 Fantasy Console") is a virtual console.
