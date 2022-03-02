@@ -6,7 +6,7 @@ layout: "page"
 ---
 
 # copper theodore
-*Updated 2022 Feb 6th*
+*Updated 2022 Mar 1st*
 
 {% include gallery.html folder="/assets/img/galleries/copper_theo" %}
 ```
@@ -89,7 +89,7 @@ I'm just one person slowly making yoyos and charging for the trouble. There won'
 7. I buy **really** shitty bearings, they have rubber shields and they're greasy and they take for damn ever to wear in and because of the plating they're actually pretty hard to remove the first time.
 
 ## Copper theo $160
-Shipping March 2022.
+Shipping April 2022.
 
 A few left, but if they sell out I will have another small batch this summer.
 ![Face of a clean Copper Theodore yoyo](/assets/img/copper_theo_thumb.jpeg){: .thumbnail}
@@ -120,29 +120,19 @@ Breaking these in is tough, they need some hard work, but the payoff is worthwhi
 **if the buy button says sold out, then someone already bought it.**
 
 ### glue theo $240
-![Dirty Copper Theodore, glue masked then patina'd with turquoise colored highlights, lovingly named spit theo, no actual spit used](/assets/img/theo/theo_glue.jpg)
-this one is really gross, i tried to do an elmer's glue mask but clearly don't know what I am doing and it made a big mess and took forever to clean up but it is what it is and definitely won't be doing this again.
+![Dirty Copper Theodore, glue masked then patina'd with turquoise colored highlights](/assets/img/theo/theo_glue.jpg)
+this one is really messy, i tried to do an elmer's glue mask but clearly don't know what I am doing and it made a big mess and took forever to clean up but it is what it is and definitely won't be doing this again, so that makes it like, super rare? one off!
 <a
   class="link"
   title="buy the one and only glue theo"
   href="https://square.link/u/xeDdN96c">
   buy glue theo
 </a>
-
-### gulp theo $220
-![Dirty Copper Theodore, patina'd with turquoise colored highlights, lovingly named spit theo, no actual spit used](/assets/img/theo/theo_gulp.jpg)
-<a
-  class="link"
-  title="buy the one and only spit theo"
-  href="https://square.link/u/pXPTJW41">
-  buy gulp theo
-</a>
-
 ## Sold Dirty Theodore Examples
 They're one of a kind so I wanted to save some photos here after they've left my posession.
 ![Dirty Copper Theodore, patina'd with turquoise colored highlights, lovingly named spit theo, no actual spit used](/assets/img/theo/theo_spit.jpg)
 ![Dirty Copper Theodore, patina'd with turquoise colored highlights, unnamed special request](/assets/img/theo/theo_teo.jpg)
-
+![Dirty Copper Theodore, patina'd with turquoise colored highlights, lovingly named gulp theo](/assets/img/theo/theo_gulp.jpg)
 ### questions?
 You can [email me](&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&colon;&#x73;&#x70;&#x6e;&#x63;&#x72;&commat;&#x77;&#x65;&#x69;&#x72;&#x64;&period;&#x76;&#x69;&#x73;&#x69;&#x6f;&#x6e;&quest;&#x73;&#x75;&#x62;&#x6a;&#x65;&#x63;&#x74;&equals;&#x74;&#x68;&#x65;&#x6f;&#x64;&#x6f;&#x72;&#x65;&percnt;&#x32;&#x30;&#x79;&#x6f;&#x79;&#x6f;). I'm chill.
 
