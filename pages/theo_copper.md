@@ -91,8 +91,8 @@ I'm just one person slowly making yoyos and charging for the trouble. There won'
 ## Copper theo $160
 Shipping every week.
 
-If they're sold out, let me know and I can prep a few more!
-[Face of a clean Copper Theodore yoyo](/assets/img/copper_theo_thumb.jpeg){: .thumbnail}
+If they're sold out, let me know and I can prep a few more.
+![Face of a clean Copper Theodore yoyo](/assets/img/copper_theo_thumb.jpeg){: .thumbnail}
 <a
   class="link"
   title="Buy one"
