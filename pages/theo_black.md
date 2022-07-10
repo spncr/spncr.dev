@@ -6,7 +6,7 @@ layout: "page"
 ---
 ## Theodore is sold out!
 
-\[gallery ids="1764,1732,1731,1826,1827,1828" type="rectangular" orderby="rand"\]
+{% include gallery.html folder="/assets/img/galleries/players_theo" %}
 
 ### Buy a Theodore
 
