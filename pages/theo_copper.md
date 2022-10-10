@@ -118,18 +118,9 @@ They're one of a kind, what you see if what you get.
 Breaking these in is tough, they need some hard work, but the payoff is worthwhile, in my biased opinion.
 
 **if the buy button says sold out, then someone already bought it.**
-
-### glue theo $240
-![Dirty Copper Theodore, glue masked then patina'd with turquoise colored highlights](/assets/img/theo/theo_glue.jpg)
-this one is really messy, i tried to do an elmer's glue mask but clearly don't know what I am doing and it made a big mess and took forever to clean up but it is what it is and definitely won't be doing this again, so that makes it like, super rare? one off!
-<a
-  class="link"
-  title="buy the one and only glue theo"
-  href="https://square.link/u/xeDdN96c">
-  buy glue theo
-</a>
 ## Sold Dirty Theodore Examples
 They're one of a kind so I wanted to save some photos here after they've left my posession.
+![Dirty Copper Theodore, glue masked then patina'd with turquoise colored highlights](/assets/img/theo/theo_glue.jpg)
 ![Dirty Copper Theodore, patina'd with turquoise colored highlights, lovingly named spit theo, no actual spit used](/assets/img/theo/theo_spit.jpg)
 ![Dirty Copper Theodore, patina'd with turquoise colored highlights, unnamed special request](/assets/img/theo/theo_teo.jpg)
 ![Dirty Copper Theodore, patina'd with turquoise colored highlights, lovingly named gulp theo](/assets/img/theo/theo_gulp.jpg)
