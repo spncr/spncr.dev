@@ -6,7 +6,7 @@ layout: "page"
 ---
 
 # copper theodore
-*Updated 2022 July 10th*
+*Updated 2023 March 6th*
 
 {% include gallery.html folder="/assets/img/galleries/copper_theo" %}
 ```
@@ -24,51 +24,37 @@ If you play with it constantly, your touch will buff the surface, leaving shiny 
 
 If left alone, it will darken.
 
-Moisture, acid, and fingers may leave marks.
+Moisture, acid, fingers leave marks.
 
 Polish it for a special occasion, but the history will remain, a veil beyond the shine.
 
 I had this batch blasted, then plated in copper.
 
-The plating is meant to be an underplate, not cosmetic.
-
-The process left some permanent splatter marks on every yoyo.
-
-I hesitated to release these at all.
-
-They are not perfect.
-
 They are not competition grade spin machines.
 
 They will not outperform in any way.
 
-They might get better with age, if you enjoy an ephemeral patina.
-
-They will become more predictable with practice, but they will not outperform.
-
-These patina in layers, to reflect the life it has had.
-
-The shoddy plating job is only their birth story, what happens next?
-
-I decided to release the Copper Theodore because I love them and I want to share, if you are up for the challenge.
+The marred plating is only their birth story, what happens next?
 
 They're grumpy, heavy, open to the challenge of you.
 
 ## disclaimers
 
-**Every single yoyo has some form of splatter marks** from the copper plating process. This plating is considered "non-cosmetic".
+**Every single yoyo has some form of splatter marks** from the copper plating process. 
 
-The blasted texture is easily marred by fingerprints or moisture. Any marks made early in the life of the yoyo tend to show up indefinitely and become part of the patina. An exaggerated, imperfect aging process is expected.
+The copper plating is considered "non-cosmetic", it will change indefinitely.
 
-We manually finished each yoyo with steel wool, to reduce the splattering and to make the surface more touchable. We did our best to not leave any new marks or finger prints. Some yoyos do have marks, either from the plating process or the steel wool scrub or a bad job.
+The blasted texture can pick up fingerprints and moisture. Any marks made early in the life of the yoyo tend to settle into the patina. An exaggerated, imperfect aging process is expected.
 
-The machine lines are also visible, even through blasting and steel wooling.
+Each yoyo is finished with steel wool, to reduce the splattering and make the surface more touchable.
 
-Copper smells. Your hands will smell and your string will get dirty when you play with this yoyo.
+The machine lines are still visible.
+
+Copper smells. Your hands will smell and your string will get dirty faster when you play with this yoyo.
 
 ## Specs
-* Machined by Alvin Rollins of Foxland Precision in 2017, before the shop was shut down. That was in Tennesse, in the States.
-* 6063 Aluminum. Copper plated with a non-cosmetic process that patinas aggressively, even from the air.
+* Machined by Alvin Rollins of Foxland Precision in 2017, before the shop was shut down. That was in Tennesse.
+* 6063 Aluminum. Copper plated with a non-cosmetic process that patinas aggressively, starting already.
 * 70g+ assembled. A naked half is ~33g.
 * 38mm wide, 54.5mm diameter
 * Nasty rubber shield C bearing, recessed to 3.6mm gap
@@ -76,7 +62,7 @@ Copper smells. Your hands will smell and your string will get dirty when you pla
 * Snow tires, a custom kitty fat string
 
 ## Price
-$160 USD, shipped, wherever you are
+$180 USD, shipped, wherever you are
 
 ## Terms
 I'm just one person slowly making yoyos and charging for the trouble. There won't be any more batches.
@@ -88,10 +74,9 @@ I'm just one person slowly making yoyos and charging for the trouble. There won'
 6. You won't hurt my feelings if you don't buy one, but you might hurt my feelings if you do buy one and hate it.
 7. I buy **really** shitty bearings, they have rubber shields and they're greasy and they take for damn ever to wear in and because of the plating they're actually pretty hard to remove the first time.
 
-## Copper theo $160
+## Copper theo $180
 Shipping every week.
 
-If they're sold out, let me know and I can prep a few more.
 ![Face of a clean Copper Theodore yoyo](/assets/img/copper_theo_thumb.jpeg){: .thumbnail}
 <a
   class="link"
@@ -100,7 +85,7 @@ If they're sold out, let me know and I can prep a few more.
   Buy One
 </a>
 
-## dirty editions
+## DIRTY editions
 I took a few Copper Theodores and bathed them in my garage, which gives them a pretty crust of color pops.
 
 Fresh out of the bath, they are a bit rough to the touch.
@@ -116,6 +101,16 @@ They need more break in time than the clean ones, and they also take a lot more 
 They're one of a kind, what you see if what you get.
 
 Breaking these in is tough, they need some hard work, but the payoff is worthwhile, in my biased opinion.
+
+### Dusty Theo
+![Face of Dusty Theodore yoyo, a noisy turquoise patina on a copper yoyo](/assets/img/theo/theo_dusty.jpg){: .medium}
+<a
+  class="link"
+  title="Buy Dusty Theo"
+  href="https://checkout.square.site/merchant/9WN8JPKBEQRSQ/checkout/WYBAMNHEJO4TORV7B7N4T3RG
+">
+  Buy Dusty Theo
+</a>
 
 **if the buy button says sold out, then someone already bought it.**
 ## Sold Dirty Theodore Examples
