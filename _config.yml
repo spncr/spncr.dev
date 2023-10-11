@@ -52,24 +52,9 @@ defaults:
       layout: default
   -
     scope:
-      path: pages
-    values:
-      layout: page
-  -
-    scope:
       type: projects
     values:
       layout: project
-  -
-    scope:
-      type: posts
-    values:
-      layout: post
-  -
-    scope:
-      path: categories
-    values:
-      layout: category
   -
     scope:
       path: "assets/img"

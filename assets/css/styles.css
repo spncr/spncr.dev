@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   font-size: 16px;
+  -webkit-transition: color .5s, border-color .5s, background-color .5s, opacity .4s, text-shadow .3s;
+  transition: color .5s, border-color .5s, background-color .5s, opacity .4s, text-shadow .3s;
 }
 
 :root {
@@ -16,13 +18,11 @@
 
 body {
   font-Family: 'Open Sans', Sans-Serif;
-  font-size: 1em;
   background-color: var(--dark);
   color: var(--text);
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  margin: 0;
 }
 
 a {
@@ -37,7 +37,6 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Raleway', Sans-Serif;
-  margin: .4em;
   padding: 0;
 }
 
@@ -48,9 +47,11 @@ h4 { font-size: 24px; }
 h5 { font-size: 22px; }
 h6 { font-size: 20px; }
 
-p {
+p:not(:last-child) {
+
   margin: 1rem 0;
 }
+
 img {
   max-width: 100%;
 }
@@ -64,6 +65,7 @@ ul {
 ol {
   list-style-position: inside;
 }
+
 header,
 section,
 footer {
@@ -86,19 +88,14 @@ footer {
   font-size: .8em;
   padding: .4rem 0;
 }
-
-svg {
-  fill: currentColor;
-}
-
-svg.icon {
-  width: 16px;
+section > *,
+footer > * {
+  margin: 0 1rem;
 }
 
 .site-title {
   text-shadow: 3px 0 0 var(--bright);
   position: absolute;
-  margin: 0;
   padding: .8rem .8rem 0;
   bottom: -12px;
   color: var(--text);
@@ -106,10 +103,6 @@ svg.icon {
 
 .overlap-above {
   padding-top: 12px;
-}
-
-.contain {
-  margin: 0 1rem;
 }
 
 .text {
@@ -123,6 +116,7 @@ svg.icon {
   font-size: .6rem;
   margin-bottom: .5em;
 }
+
 .bright { background-color: var(--deep); }
 
 .hidden {
@@ -174,32 +168,6 @@ svg.icon {
   list-style: inside circle;
 }
 
-.thumbnail {
-  max-width: 256px;
-  display: block;
-}
-
-/*||||||||||||||||||||||||||||||||||||||||||||||||||||Delete below this line*/
-.posts {
-  display: block;
-  margin-block-start: 0;
-  padding-inline-start: 0;
-}
-
-.post{
-  display: block;
-}
-
-.posts .post:not(.with-cover){
-  padding-top: 1em;
-  padding-bottom: 2em;
-}
-
-.posts .post img {
-  object-fit: cover;
-  max-height: 600px;
-}
-
 .tiles {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(264px, 1fr));
@@ -207,8 +175,7 @@ svg.icon {
   padding: 0;
 }
 
-.tile,
-.post {
+.tile {
   background-color: var(--dark);
   border: 4px solid var(--deep);
   padding-bottom: 10px;
@@ -222,7 +189,6 @@ svg.icon {
   max-height: 256px;
 }
 
-.post .title,
 .tile .title {
   padding: 6px;
   margin: 0;
@@ -253,8 +219,7 @@ svg.icon {
   padding: 6px;
 }
 
-.tile:hover,
-.post:hover {
+.tile:hover {
   background-color: var(--deep);
   border-color: var(--text);
 }
@@ -266,11 +231,6 @@ svg.icon {
 }
 
 .tile:hover .tag {color: var(--text);}
-
-.smooth {
-  -webkit-transition: color .5s, border-color .5s, background-color .5s, opacity .4s, text-shadow .3s;
-  transition: color .5s, border-color .5s, background-color .5s, opacity .4s, text-shadow .3s;
-}
 
 @media (min-width: 640px) {
   header {

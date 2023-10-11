@@ -2,20 +2,20 @@
 layout: default
 ---
 <section>
-  <img class="contain" src="../assets/img/{{page.image}}"/>
-  <h2 class="contain">{{page.title}}</h2>
-  <div class="contain meta">
+  <img src="../assets/img/{{page.image}}"/>
+  <h2>{{page.title}}</h2>
+  <div class="meta">
   {% for tool in page.tools %}
     <span class="tag">{{tool}}</span>
   {% endfor %}
   </div>
-  <main class="contain text">
+  <main class="text">
     {{content}}
   </main>
 </section>
 
 <section class="bright">
-  <div class="contain">
+  <div>
     {% for link in page.links %}
       <a href="{{link.link}}" class="link smooth">{{link.label}}</a>
     {% endfor %}
@@ -23,7 +23,7 @@ layout: default
 </section>
 
 <section class="columns">
-  <div class="contain text">
+  <div class="text">
     <h3>Victories</h3>
     <ul class="bullets">
     {% for victory in page.victories %}
@@ -32,7 +32,7 @@ layout: default
     </ul>
   </div>
 
-  <div class="contain">
+  <div>
     <h3>Next Steps</h3>
     <ul class="bullets">
     {% for todo in page.todos %}
@@ -43,8 +43,8 @@ layout: default
 </section>
 {% if page.examples %}
   <section>
-      <h3 class="contain">More to see</h3>
-      <ul class="contain tiles">
+      <h3>More to see</h3>
+      <ul class=" tiles">
       {% for example in page.examples %}
           <li class="tile smooth">
             <a href="{{ example.link }}" target="_blank">
