@@ -7,7 +7,7 @@ tools:
   - heroku
   - aws
 links:
-  - label: check it out live
+  - label: not currently live (heroku used to be free)
     link: https://yoyos-spncr.herokuapp.com
   - label: see the code
     link: https://github.com/spncr/yoyo_drawer
